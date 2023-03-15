@@ -1,3 +1,26 @@
+
+
+## Screenshots of the Figma Wireframes (Desktop & Mobile views)
+
+![Screenshot](./public/READmeImages/DeskLanding.png)
+![Screenshot](./public/READmeImages/AllOverview.png)
+![Screenshot](./public/READmeImages/DeskListingsHover.png)
+![Screenshot](./public/READmeImages/DeskBuyersHover.png)
+![Screenshot](./public/READmeImages/DeskBuyersArticle.png)
+![Screenshot](./public/READmeImages/DeskSellersHover.png)
+![Screenshot](./public/READmeImages/DeskSellersArticle.png)
+![Screenshot](./public/READmeImages/DeskArticles.png)
+![Screenshot](./public/READmeImages/DeskAbout.png)
+![Screenshot](./public/READmeImages/MobileLeftOverview.png)
+![Screenshot](./public/READmeImages/MobileRightOverview.png)
+![Screenshot](./public/READmeImages/MobileBottomOverview.png)
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
