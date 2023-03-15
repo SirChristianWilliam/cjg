@@ -1,23 +1,33 @@
 
 
 ## Screenshots of the Figma Wireframes (Desktop & Mobile views)
-
+###### Landing Page
 ![Screenshot](./public/READmeImages/DeskLanding.png)
+###### Overview of desktop & mobile wireframes
 ![Screenshot](./public/READmeImages/AllOverview.png)
+###### When Listings tab is hovered
 ![Screenshot](./public/READmeImages/DeskListingsHover.png)
+###### When Buyers tab is hovered
 ![Screenshot](./public/READmeImages/DeskBuyersHover.png)
+###### When Buyers tab is clicked
 ![Screenshot](./public/READmeImages/DeskBuyersArticle.png)
+###### When Sellers tab is hovered
 ![Screenshot](./public/READmeImages/DeskSellersHover.png)
+###### When Sellers tab is Clicked
+
 ![Screenshot](./public/READmeImages/DeskSellersArticle.png)
+###### When Articles tab is clicked
 ![Screenshot](./public/READmeImages/DeskArticles.png)
+###### When About tab is clicked
 ![Screenshot](./public/READmeImages/DeskAbout.png)
+###### Mobile left overview
 ![Screenshot](./public/READmeImages/MobileLeftOverview.png)
+###### Mobile right overview
 ![Screenshot](./public/READmeImages/MobileRightOverview.png)
+###### Mobile bottom overview
 ![Screenshot](./public/READmeImages/MobileBottomOverview.png)
 
-
-
-
+### All images aside from the profile photo are property of SirChristianWilliam
 
 
 
