@@ -27,7 +27,7 @@
 ###### Mobile bottom overview
 ![Screenshot](./public/READmeImages/MobileBottomOverview.png)
 
-### All images aside from the profile photo are property of SirChristianWilliam
+### All images aside from the profile photo & the Coldwell Banker logo image are property of SirChristianWilliam
 
 
 
