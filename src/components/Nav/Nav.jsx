@@ -6,7 +6,7 @@ function Nav() {
   return (
     <>
       {/* Top banner */}
-      <nav className="  bg-body-tertiary ">
+      <nav className="bg-body-tertiary ">
         <div className="container-fluid nav justify-content-start">
           <Phone />
           <Email />
@@ -14,9 +14,8 @@ function Nav() {
       </nav>
 
       {/* Regular Header Top */}
-      {/* <nav className="navbar bg-body-tertiary fixed-top">
+      <nav className="navbar bg-body-tertiary">
         <div className="container-fluid">
-          <Phone />
           <button
             className="navbar-toggler"
             type="button"
@@ -101,7 +100,7 @@ function Nav() {
             </div>
           </div>
         </div>
-      </nav> */}
+      </nav>
     </>
   );
 }
