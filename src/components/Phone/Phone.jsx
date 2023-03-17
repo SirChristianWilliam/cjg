@@ -3,7 +3,7 @@ import React from "react";
 function Phone() {
   return (
     <>
-      <h1>Phone</h1>
+      <span class="material-symbols-outlined">phone_in_talk</span>
     </>
   );
 }

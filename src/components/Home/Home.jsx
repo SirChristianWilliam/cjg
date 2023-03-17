@@ -11,7 +11,7 @@ import React from "react";
 function Home() {
   return (
     <>
-       <h1>We are on the home page</h1>
+      <h1>We are on the home page</h1>
     </>
   );
 }
