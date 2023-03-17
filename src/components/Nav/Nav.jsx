@@ -1,118 +1,107 @@
 import React from "react";
-
+import Phone from "../Phone/Phone";
+import Email from "../Email/Email";
 // 1. Nav bar has different render depending on viewport size. This should reflect in the classes
 function Nav() {
   return (
     <>
-      <a
-        className="btn btn-primary"
-        data-bs-toggle="offcanvas"
-        href="#offcanvasExample"
-        role="button"
-        aria-controls="offcanvasExample"
-      >
-        Link with href
-      </a>
+      {/* Top banner */}
+      <nav className="navbar bg-body-tertiary fixed-top">
+        <div className="container-fluid nav justify-content-start">
+          <Phone />
+          <Email />
+        </div>
+      </nav>
 
-      <div
-        className="offcanvas offcanvas-start"
-        tabIndex="-1"
-        id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel"
-      >
-        <div className="offcanvas-header">
-          <h6 className="offcanvas-title" id="offcanvasExampleLabel">
-            {/* This keeps the "x" to the right */}
-          </h6>
+      {/* Regular Header Top */}
+      {/* <nav className="navbar bg-body-tertiary fixed-top">
+        <div className="container-fluid">
+          <Phone />
           <button
+            className="navbar-toggler"
             type="button"
-            className="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div className="offcanvas-body">
-          <div>
-            <a
-              href="https://www.runescape.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Listings
-            </a>
-            <br></br>
-            <a
-              href="https://www.runescape.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Buyers
-            </a>
-            <br></br>
-
-            <a
-              href="https://www.runescape.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Sellers
-            </a>
-            <br></br>
-
-            <a
-              href="https://www.runescape.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Articles
-            </a>
-            <br></br>
-
-            <a
-              href="https://www.runescape.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              About
-            </a>
-            <br></br>
-
-            <a
-              href="https://www.runescape.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Home
-            </a>
-          </div>
-          <div className="dropdown mt-3">
-            <button
-              className="btn btn-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-            >
-              Dropdown button
-            </button>
-            <ul className="dropdown-menu">
-              <li>
-                <a className="dropdown-item" href="https://www.runescape.com">
-                  Action
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="https://www.runescape.com">
-                  Another action
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="https://www.runescape.com">
-                  Something else here
-                </a>
-              </li>
-            </ul>
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div
+            className="offcanvas offcanvas-end"
+            tabIndex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="offcanvas-body">
+              <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Link
+                  </a>
+                </li>
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Action
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Another action
+                      </a>
+                    </li>
+                    <li>
+                      <hr className="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Something else here
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form className="d-flex mt-3" role="search">
+                <input
+                  className="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button className="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
+      </nav> */}
     </>
   );
 }

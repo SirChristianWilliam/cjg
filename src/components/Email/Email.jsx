@@ -1,9 +1,15 @@
 import React from "react";
-
 function Email() {
   return (
     <>
-      <h1>Email</h1>
+      <nav className="navbar bg-body-tertiary">
+        <div className="container">
+          <a href="http://www.runescape.com">
+            <span className="material-symbols-outlined">mail</span>
+            <span className="phoneLineHeight"> Let's Chat!</span>
+          </a>
+        </div>
+      </nav>
     </>
   );
 }
