@@ -6,7 +6,7 @@ function Nav() {
   return (
     <>
       {/* Top banner */}
-      <nav className="navbar bg-body-tertiary fixed-top">
+      <nav className="  bg-body-tertiary ">
         <div className="container-fluid nav justify-content-start">
           <Phone />
           <Email />
