@@ -1,10 +1,11 @@
 @media only screen and (max-width: 400px) {
-    .emailAndPhoneSizing, .material-symbols-outlined {
-      font-size: 15px;
-    }
+  .emailAndPhoneSizing,
+  .material-symbols-outlined {
+    font-size: 15px;
   }
-  @media only screen and (max-width: 400px) {
-    .material-symbols-outlined {
-      font-size: 25px !important;
-    }
+}
+@media only screen and (max-width: 400px) {
+  .material-symbols-outlined {
+    font-size: 25px !important;
   }
+}

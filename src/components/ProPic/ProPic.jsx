@@ -1,11 +1,8 @@
 import React from "react";
+import "./ProPic.css";
 
 function ProPic() {
-  return (
-    <>
-      <h1>ProPic </h1>
-    </>
-  );
+  return <img src="/Images/catpPic.jpeg" className="proPicQualities"></img>;
 }
 
 export default ProPic;

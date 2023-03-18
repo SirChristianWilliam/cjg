@@ -2,7 +2,14 @@ body {
   background-image: url(/public/Images/backgroundNature.png);
 }
 
-.col {
+.primaryBackgroundColor {
+  background-color: #08355f;
+  padding: 0;
+  margin: 0;
 }
-
-
+.navbar-toggler {
+  position: absolute;
+  top: 35% !important;
+  right: 10px !important;
+  background-color: white !important;
+}

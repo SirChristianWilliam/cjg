@@ -13,7 +13,6 @@ import Home from "../Home/Home";
 import Listings from "../Listings/Listings";
 import MobileDrawer from "../MobileDrawer/MobileDrawer";
 import Phone from "../Phone/Phone";
-import ProPic from "../ProPic/ProPic";
 import Sellers from "../Sellers/Sellers";
 import Nav from "../Nav/Nav";
 
@@ -22,7 +21,7 @@ function App() {
     <>
       <Router>
         {/* Always show the Nav */}
-        <Nav/>
+        <Nav />
         <Routes>
           <Route path="/About" element={<About />} />
           <Route path="/Articles" element={<Articles />} />
@@ -33,7 +32,6 @@ function App() {
           <Route path="/Listings" element={<Listings />} />
           <Route path="/MobileDrawer" element={<MobileDrawer />} />
           <Route path="/Phone" element={<Phone />} />
-          <Route path="/ProPic" element={<ProPic />} />
           <Route path="/Sellers" element={<Sellers />} />
           <Route path="*" element={<Home />} />
         </Routes>

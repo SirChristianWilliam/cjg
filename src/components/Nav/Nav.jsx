@@ -1,6 +1,8 @@
 import React from "react";
 import Phone from "../Phone/Phone";
 import Email from "../Email/Email";
+import ProPic from "../ProPic/ProPic";
+
 // 1. Nav bar has different render depending on viewport size. This should reflect in the classes
 function Nav() {
   return (
@@ -12,9 +14,23 @@ function Nav() {
           <Email />
         </div>
       </nav>
+
       {/* Regular Header Top */}
-      <nav className="navbar  bg-body-tertiary" style={{height: '5.5rem'}}>
-        <div className="container-fluid justify-content-end" >
+      <nav
+        className="navbar primaryBackgroundColor"
+        style={{ minHeight: "5.5em" }}
+      >
+        <div className="container-fluid justify-content-between align-items-start">
+          <ProPic
+            style={{
+              width: "auto",
+              height: "auto",
+              maxWidth: "100%",
+              maxHeight: "100%",
+              objectFit: "contain",
+            }}
+          />
+
           <button
             className="navbar-toggler"
             type="button"
