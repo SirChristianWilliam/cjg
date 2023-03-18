@@ -22,18 +22,17 @@ function App() {
       <Router>
         {/* Always show the Nav */}
         <Nav />
-        <Routes>
+        <Routes >
           <Route path="/About" element={<About />} />
           <Route path="/Articles" element={<Articles />} />
           <Route path="/Buyers" element={<Buyers />} />
-          <Route path="/ColdwellLogo" element={<ColdwellLogo />} />
           <Route path="/Email" element={<Email />} />
           <Route path="/Footer" element={<Footer />} />
           <Route path="/Listings" element={<Listings />} />
           <Route path="/MobileDrawer" element={<MobileDrawer />} />
           <Route path="/Phone" element={<Phone />} />
           <Route path="/Sellers" element={<Sellers />} />
-          <Route path="*" element={<Home />} />
+          <Route path="*" element={<Home />}  />
         </Routes>
       </Router>
     </>

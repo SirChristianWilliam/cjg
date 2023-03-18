@@ -8,6 +8,7 @@ function Phone() {
           <a href="#">
             <span className="material-symbols-outlined">phone_in_talk</span>
             <span className="phoneLineHeight"> (320)-279-9904</span>
+            <i className="bi bi-list"></i>
           </a>
         </div>
       </nav>

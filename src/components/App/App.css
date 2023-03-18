@@ -1,5 +1,10 @@
-body {
+:root {
   background-image: url(/public/Images/backgroundNature.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 150px;
 }
 
 .primaryBackgroundColor {
@@ -8,8 +13,48 @@ body {
   margin: 0;
 }
 .navbar-toggler {
-  position: absolute;
-  top: 35% !important;
-  right: 10px !important;
+  /* position: absolute; */
+  margin-left: 15px;
+  /* right: 25px !important; */
   background-color: white !important;
+}
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media only screen and (min-width: 1000px) {
+  :root {
+    background-image: url(/public/Images/backgroundNature.png);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position-y: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  :root {
+    background-image: url(/public/Images/backgroundNature.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 150px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .container-fluid {
+    display: block !important;
+  --bs-gutter-x: 0rem;
+
+  }
+  .theToggler button {
+    width:100%;
+  }
+  .navbar-toggler {
+    margin:0;
+  }
 }

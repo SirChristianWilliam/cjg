@@ -1,9 +1,13 @@
 import React from "react";
-
+import "./ColdwellLogo.css";
 function ColdwellLogo() {
   return (
     <>
-      <h1>ColdwellLogo</h1>
+      {/* <img src="/Images/CWLogoOnly.png"></img> */}
+      {/* <img src="Images/CWLogoOnly.svg" className="CWLogoOnlyStyles"></img> */}
+      <div>
+      <img src="Images/CWLogoS.svg" className="CWLogoOnlyStyles"></img>
+      </div>
     </>
   );
 }
