@@ -12,10 +12,9 @@ function Nav() {
           <Email />
         </div>
       </nav>
-
       {/* Regular Header Top */}
-      <nav className="navbar bg-body-tertiary">
-        <div className="container-fluid">
+      <nav className="navbar  bg-body-tertiary" style={{height: '5.5rem'}}>
+        <div className="container-fluid justify-content-end" >
           <button
             className="navbar-toggler"
             type="button"
@@ -33,7 +32,7 @@ function Nav() {
           >
             <div className="offcanvas-header">
               <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                Offcanvas
+                Escape key to close
               </h5>
               <button
                 type="button"
