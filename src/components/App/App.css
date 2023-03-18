@@ -45,7 +45,7 @@
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 325px) {
   .container-fluid {
     display: block !important;
   --bs-gutter-x: 0rem;
@@ -56,5 +56,15 @@
   }
   .navbar-toggler {
     margin:0;
+  }
+  .container {
+    width:auto;
+  }
+  .CWLogoOnlyStyles {
+    margin-left:10px;
+  }
+  .emailAndPhoneSizing:first-child {
+    padding-bottom: 0;
+
   }
 }
