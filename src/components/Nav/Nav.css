@@ -8,3 +8,9 @@
  
 }
 
+.offcanvas-bottom {
+    --bs-offcanvas-height: 60vh;
+  }
+.offcanvas {
+    text-align: center;
+}
