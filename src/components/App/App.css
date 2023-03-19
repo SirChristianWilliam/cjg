@@ -26,8 +26,8 @@ body {
   display: flex;
   flex-wrap: nowrap;
 }
-
-@media only screen and (min-width: 1000px) {
+/* 950px and up will be designed for desktop */
+@media only screen and (min-width: 950px) {
   body {
     background-image: url(/public/Images/backgroundNature.png);
     background-position: center;
