@@ -9,3 +9,29 @@
 .offcanvas {
   text-align: center;
 }
+
+/* .mobileOnOrOff {
+    
+}
+
+.desktopOnOrOff{
+
+} */
+@media only screen and (min-width: 500px) {
+    .mobileOnOrOff {    
+        display:none !important;
+    }
+    .desktopOnOrOff {
+        display: "" !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+     .mobileOnOrOff {
+        display: "" !important;
+    }
+    .desktopOnOrOff {
+        display:none !important;
+
+    }
+}

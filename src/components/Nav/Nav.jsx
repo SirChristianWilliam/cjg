@@ -4,6 +4,8 @@ import Email from "../Email/Email";
 import ProPic from "../ProPic/ProPic";
 import ColdwellLogo from "../ColdwellLogo/ColdwellLogo";
 import MobileNav from "../MobileNav/MobileNav";
+import DesktopNav from "../DesktopNav/DesktopNav";
+
 import "./Nav.css";
 // 1. Nav bar has different render depending on viewport size. This should reflect in the classes
 function Nav() {
@@ -25,9 +27,9 @@ function Nav() {
             <ProPic />
           </div>
           {/* This is the mobile Nav view, viewport <= 500px */}
-          <MobileNav />
+          <MobileNav className="mobileOnOrOff" />
           {/* This is desktop Nav view, viewport > 500px */}
-          
+          <DesktopNav className="desktopOnOrOff" />
         </div>
       </nav>
     </>
