@@ -27,9 +27,9 @@ function Nav() {
             <ProPic />
           </div>
           {/* This is the mobile Nav view, viewport <= 500px */}
-          <MobileNav className="mobileOnOrOff" />
+          <MobileNav />
           {/* This is desktop Nav view, viewport > 500px */}
-          <DesktopNav className="desktopOnOrOff" />
+          <DesktopNav />
         </div>
       </nav>
     </>

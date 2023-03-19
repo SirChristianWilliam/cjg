@@ -3,24 +3,36 @@ import React from "react";
 function DesktopNav() {
   return (
     <>
-      <ul className="nav justify-content-end">
+      <ul className="nav justify-content-end desktopOnOrOff">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">
-            Active
+            Listings
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
+            Buyers
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
+            Sellers
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
+          <a className="nav-link" href="#">
+            Articles
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">
+            About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">
+            Home
+          </a>
         </li>
       </ul>
     </>
