@@ -36,7 +36,7 @@ function MobileNav() {
         </div>
         <div className="offcanvas-body">
           <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li className="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -54,31 +54,62 @@ function MobileNav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="https://www.cbresults.com/homes-for-sale-in-pine-city-mn" target="_blank">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.cbresults.com/homes-for-sale-in-pine-city-mn"
+                    target="_blank"
+                  >
                     Pine City, MN
                   </a>
-                  <a className="dropdown-item" href="https://www.cbresults.com/homes-for-sale-in-mora-mn" target="_blank">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.cbresults.com/homes-for-sale-in-mora-mn"
+                    target="_blank"
+                  >
                     Mora, MN
                   </a>
-                  <a className="dropdown-item" href="https://www.cbresults.com/homes-for-sale-in-rush-city-mn" target="_blank">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.cbresults.com/homes-for-sale-in-rush-city-mn"
+                    target="_blank"
+                  >
                     Rush City, MN
                   </a>
-                  <a className="dropdown-item" href="https://www.cbresults.com/homes-for-sale-in-grasston-mn" target="_blank">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.cbresults.com/homes-for-sale-in-grasston-mn"
+                    target="_blank"
+                  >
                     Grasston, MN
                   </a>
-                  <a className="dropdown-item" href="https://www.cbresults.com/homes-for-sale-in-braham-mn" target="_blank">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.cbresults.com/homes-for-sale-in-braham-mn"
+                    target="_blank"
+                  >
                     Braham, MN
                   </a>
-                  <a className="dropdown-item" href="https://www.cbresults.com/homes-for-sale-in-brook-park-mn" target="_blank">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.cbresults.com/homes-for-sale-in-brook-park-mn"
+                    target="_blank"
+                  >
                     Brook Park, MN
                   </a>
-                  <a className="dropdown-item" href="https://www.cbresults.com/homes-for-sale-in-rock-creek-mn" target="_blank">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.cbresults.com/homes-for-sale-in-rock-creek-mn"
+                    target="_blank"
+                  >
                     Rock Creek, MN
                   </a>
-                  <a className="dropdown-item" href="https://www.cbresults.com/homes-for-sale-in-hinckley-mn" target="_blank">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.cbresults.com/homes-for-sale-in-hinckley-mn"
+                    target="_blank"
+                  >
                     Hinckley, MN
                   </a>
-                  
                 </li>
               </ul>
             </li>
