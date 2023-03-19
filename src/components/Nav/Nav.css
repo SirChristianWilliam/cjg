@@ -2,9 +2,20 @@
   display: flex;
   align-items: center;
 }
+.bannerHardlyKnower {
+  background-color: #ecf4fc !important;
+}
 
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+}
 .offcanvas-bottom {
   --bs-offcanvas-height: 60vh;
+}
+.offcanvas-body a:hover,
+.navbar-nav .nav-link:hover {
+  color: rgb(27, 182, 163);
+  font-weight: bold;
 }
 .offcanvas {
   text-align: center;
@@ -36,7 +47,7 @@
     display: none;
   }
   .navbar > .container-fluid {
-    display: flex; 
+    display: flex;
   }
   .navbar-toggler {
     padding-left: 25px;

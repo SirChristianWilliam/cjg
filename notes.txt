@@ -1,0 +1,31 @@
+It's getting to that point where I need to start 
+noting arising problems and 
+questions I have
+that will need to addressed before this website can be complete.
+
+Confer with the client: 
+
+1. Determine what exact colors she wants. 
+    The blue is secondary,
+    white-ish is the main,
+    and I can use a lighter blue as the tertiary/action links, but 
+    I think we both would rather use greens as the accents. 
+2. I still need her to show me how she wants the articles to look, as they 
+    should all have a consistent format. That way I can make a component template 
+    that will make integrating new articles as painlessly as possible. 
+3. Client still hasn't decided on background image. 
+4. I'm adding some green in now mainly for actionable buttons/links/events that can
+    easily be changed if she doesn't like it. I think it gives it some flavor. 
+
+5. Maybe I'm using it wrong, but Bootstrap is just as bad as Material UI. 
+    If I want a general large container where everything reacts responsively on the
+    the inside depending on viewport dimensions, then yeah maybe I'll start with 
+    one of the two. It also makes consistent styling throughout the site. However, 
+    any sort of edits to those styles and I immediately just create my own class 
+    for the element I want to target because it's such a pain looking it up, and 
+    it doesn't always even have a solution that doesn't consist of "Property !important" . 
+    I honestly feel like I could do a 100% better and quicker job just using CSS and 
+    nothing else. I'll try Tailwind in a future upcoming project because I read that 
+    it removes repeating CSS, which would be very helpful because at th eend of this project 
+    or sometime in the middle I'm going to have to do that manually. Good to learn at least, 
+    I should get a hold of someone who uses MUI or Bootstrap and ask them their opinions. 
