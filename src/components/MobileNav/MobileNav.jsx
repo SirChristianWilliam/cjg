@@ -52,9 +52,9 @@ function MobileNav() {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <button className="dropdown-item">
                     Close this tab
-                  </a>
+                  </button>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
@@ -90,9 +90,9 @@ function MobileNav() {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <button className="dropdown-item">
                     Close this tab
-                  </a>
+                  </button>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
