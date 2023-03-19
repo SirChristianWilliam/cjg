@@ -1,11 +1,11 @@
 import React from "react";
-
+import "./DesktopNav.css";
 function DesktopNav() {
   return (
     <>
       <ul className="nav justify-content-end desktopOnOrOff">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">
+          <a className="nav-link active" href="#">
             Listings
           </a>
         </li>
