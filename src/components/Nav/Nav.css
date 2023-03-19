@@ -1,16 +1,11 @@
 .coldAndPro {
-    display: flex;
-    align-items: center;
-
-}
-
-.theToggler {
- 
+  display: flex;
+  align-items: center;
 }
 
 .offcanvas-bottom {
-    --bs-offcanvas-height: 60vh;
-  }
+  --bs-offcanvas-height: 60vh;
+}
 .offcanvas {
-    text-align: center;
+  text-align: center;
 }

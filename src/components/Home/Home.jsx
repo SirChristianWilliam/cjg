@@ -6,11 +6,14 @@ import React from "react";
 //     Routes,
 //   } from "react-router-dom";
 
-// import Nav from "../Nav/Nav";
+import "./Home.css";
 
 function Home() {
   return (
     <>
+      <div className="homePageTextContainer">
+        <h1>Helping you find your way home.</h1>
+      </div>
     </>
   );
 }
