@@ -1,5 +1,55 @@
 .desktopOnOrOff a {
-    color:white;
-    padding: 10px 30px;
-    font-size:larger;
+  color: white;
+  padding: 10px 30px;
+  font-size: larger;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+  .desktopOnOrOff a {
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .desktopOnOrOff a {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .desktopOnOrOff a {
+    padding: 12px 20px;
+  }
+}
+@media only screen and (max-width: 825px) {
+  .desktopOnOrOff a {
+    font-size: 65%;
+  }
+}
+@media only screen and (max-width: 825px) {
+  .desktopOnOrOff a {
+    font-size: 55%;
+  }
+
+  .desktopOnOrOff a {
+    font-size: 65%;
+  }
+}
+@media only screen and (max-width: 784px) {
+  .navbar > .container-fluid {
+    display: block;
+    width: 100%;
+  }
+  .coldAndPro {
+    justify-content: center !important;
+  }
+  .desktopOnOrOff a {
+    font-size: 70%;
+  }
+  .desktopOnOrOff {
+    width: 100%;
+  }
 }

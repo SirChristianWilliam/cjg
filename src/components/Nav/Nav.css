@@ -35,6 +35,9 @@
   .desktopOnOrOff {
     display: none;
   }
+  .navbar > .container-fluid {
+    display: flex; 
+  }
   .navbar-toggler {
     padding-left: 25px;
     padding-right: 25px;
