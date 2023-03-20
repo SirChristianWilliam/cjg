@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./DesktopNav.css";
 function DesktopNav() {
-   
-
   return (
     <>
-      <ul className="nav justify-content-end desktopOnOrOff" >
+      <ul className="nav justify-content-end desktopOnOrOff">
         <li className="nav-item">
           <a className="nav-link active" href="#">
             Listings
@@ -53,14 +51,14 @@ function DesktopNav() {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link to="/articles" className="nav-link">
             Articles
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link to="/about" className="nav-link">
             About
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
