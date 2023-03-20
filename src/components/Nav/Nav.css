@@ -22,6 +22,8 @@
 }
 .desktopOnOrOff {
   width: 90%;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 /* .navbar-toggler {

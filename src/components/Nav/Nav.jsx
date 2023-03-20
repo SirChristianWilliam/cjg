@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Phone from "../Phone/Phone";
 import Email from "../Email/Email";
 import ProPic from "../ProPic/ProPic";
