@@ -191,9 +191,9 @@ function MobileNav() {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link to="/about" className="nav-link active">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
