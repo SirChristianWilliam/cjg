@@ -2,11 +2,22 @@
   color: white;
   padding: 10px 30px;
   font-size: larger;
-  border: 1px solid rgb(27, 182, 163);
+  outline: 1px solid rgb(27, 182, 163);
+  border: 0px solid rgb(27, 182, 163);
   border-radius: 5px;
+  outline:none;
+  border:none;
+  border-radius: none;
   margin: 5px;
   display: flex;
   align-items: center;
+}
+.dropdown .btn {
+    border-radius:none !important;
+
+}
+.desktopOnOrOff a  {
+    border-left:1px solid rgb(27, 182, 163);
 }
 
 @media only screen and (max-width: 1200px) {
