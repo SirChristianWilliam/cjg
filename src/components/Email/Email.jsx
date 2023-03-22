@@ -3,6 +3,7 @@ import "./Email.css";
 
 function Email() {
   const [icon, setIcon] = useState("mail");
+
   const handleMouseEnter = () => {
     setIcon("drafts");
   };
@@ -25,12 +26,17 @@ function Email() {
             onMouseLeave={handleMouseLeave}
           >
             {icon === "mail" && (
-              <span className="material-symbols-outlined">mail</span>
+              <>
+                <span className="material-symbols-outlined">mail</span>
+                <span className="phoneLineHeight "> Let's Chat!</span>
+              </>
             )}
             {icon === "drafts" && (
-              <span className="material-symbols-outlined">drafts</span>
+              <>
+                <span className="material-symbols-outlined">drafts</span>
+                <span className="phoneLineHeight itel"> Let's Chat!</span>
+              </>
             )}
-            <span className="phoneLineHeight"> Let's Chat!</span>
           </a>
         </div>
       </nav>
