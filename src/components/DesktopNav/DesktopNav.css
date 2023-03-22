@@ -34,6 +34,10 @@
 .desktopOnOrOff a {
   border-left: 1px solid rgb(27, 182, 163);
 }
+.dropdown-item:hover {
+    color:rgb(27, 182, 163);
+    font-weight: initial !important;
+}
 
 @media only screen and (max-width: 1200px) {
   .desktopOnOrOff a {
