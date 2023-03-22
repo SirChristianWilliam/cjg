@@ -34,7 +34,7 @@ function Email() {
             {icon === "drafts" && (
               <>
                 <span className="material-symbols-outlined">drafts</span>
-                <span className="phoneLineHeight itel"> Let's Chat!</span>
+                <span className="phoneLineHeight ital"> Let's Chat!</span>
               </>
             )}
           </a>
