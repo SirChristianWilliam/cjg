@@ -123,19 +123,29 @@ function DesktopNav() {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <button className="dropdown-item" type="button">
+              <a className="dropdown-item" type="button">
                 Article for buyers
-              </button>
+              </a>
             </li>
             <li>
-              <button className="dropdown-item" type="button">
+              <a className="dropdown-item" type="button">
                 Article for buyers
-              </button>
+              </a>
             </li>
             <li>
-              <button className="dropdown-item" type="button">
+              <a className="dropdown-item" type="button">
                 Article for buyers
-              </button>
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" type="button">
+                Article for buyers
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" type="button">
+                Article for buyers
+              </a>
             </li>
           </ul>
         </li>
@@ -163,19 +173,29 @@ function DesktopNav() {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <button className="dropdown-item" type="button">
+              <a className="dropdown-item" type="button">
                 Article for Sellers
-              </button>
+              </a>
             </li>
             <li>
-              <button className="dropdown-item" type="button">
+              <a className="dropdown-item" type="button">
                 Article for Sellers
-              </button>
+              </a>
             </li>
             <li>
-              <button className="dropdown-item" type="button">
+              <a className="dropdown-item" type="button">
                 Article for Sellers
-              </button>
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" type="button">
+                Article for Sellers
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" type="button">
+                Article for Sellers
+              </a>
             </li>
           </ul>
         </li>
