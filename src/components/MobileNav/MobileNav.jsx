@@ -1,8 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import "./MobileNav.css";
 import { Link } from "react-router-dom";
 
 function MobileNav() {
+  // const [hamburger, setHamburger] = useState(false);
+
+  // function onHamClicked() {
+  //   setHamburger(!hamburger);
+
+  // }
+
   return (
     <>
       <div className="theToggler mobileOnOrOff">
@@ -12,8 +19,18 @@ function MobileNav() {
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
+          // onClick={onHamClicked}
         >
-          <span className="navbar-toggler-icon"></span>
+          {/* {hamburger == true && (
+            <span className="navbar-toggler-icon"></span>
+
+          )}
+          {hamburger == false && (
+          <span className="navbar-toggler-icon">ffff</span>
+
+          )} */}
+                      <span className="navbar-toggler-icon"></span>
+
         </button>
       </div>
 
