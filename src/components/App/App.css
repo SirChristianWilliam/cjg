@@ -33,6 +33,7 @@ body {
 .navbar {
   display: flex;
   flex-wrap: nowrap;
+  
 }
 /* 950px and up will be designed for desktop */
 @media only screen and (min-width: 950px) {
