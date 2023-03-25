@@ -1,13 +1,11 @@
 .desktopOnOrOff a {
-  color: white;
+  color: whitesmoke;
   padding: 10px 30px;
   font-size: larger;
-  outline: 1px solid rgb(27, 182, 163);
-  border: 0px solid rgb(27, 182, 163);
-  border-radius: 5px;
+  /* outline: 1px solid rgb(27, 182, 163); */
+  border: 1px solid rgb(27, 182, 163);
+  border-radius: 10px;
   outline: none;
-  border: none;
-  border-radius: none;
   margin: 5px;
   display: flex;
   align-items: center;
@@ -31,13 +29,19 @@
 .dropdown .btn {
   border-radius: none !important;
 }
-.desktopOnOrOff a {
-  border-left: 1px solid rgb(27, 182, 163);
-}
 .dropdown-item:hover {
     color:rgb(27, 182, 163);
     font-weight: initial !important;
 }
+
+.nav {
+    --bs-nav-link-hover-color: #a3dc95;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .nav li:hover {
+    font-weight: bold;
+  }
 
 @media only screen and (max-width: 1200px) {
   .desktopOnOrOff a {
