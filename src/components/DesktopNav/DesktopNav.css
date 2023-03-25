@@ -19,6 +19,7 @@
 }
 .desktopOnOrOff .dropdown-menu a:hover {
   color: rgb(27, 182, 163);
+  border:0px solid black !important;
 }
 .dropdown-menu[data-bs-popper] {
   margin-top: 0;
@@ -40,7 +41,7 @@
   display: flex;
   flex-wrap: nowrap;
 }
-.navbar a:hover {
+.navbar a:hover:not(.dropdown-menu) {
   color: #a3dc95;
   border: 1px solid #a3dc95;
 }
