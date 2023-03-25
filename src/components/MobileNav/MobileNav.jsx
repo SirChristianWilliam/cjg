@@ -9,7 +9,11 @@ function MobileNav() {
   //   setHamburger(!hamburger);
 
   // }
-
+  function closeMobileDrawer() {
+    return (
+      alert('yo')
+    )
+  }
   return (
     <>
       <div className="theToggler mobileOnOrOff">
@@ -166,7 +170,7 @@ function MobileNav() {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-                <li>
+                <li onClick={closeMobileDrawer}>
                   <a className="dropdown-item" href="#">
                     Buyers1
                   </a>
@@ -212,7 +216,7 @@ function MobileNav() {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-                <li>
+                <li onClick={closeMobileDrawer}>
                   <a className="dropdown-item" href="#">
                     Sellers1
                   </a>
@@ -232,17 +236,17 @@ function MobileNav() {
               </ul>
             </li>
             <li className="nav-item">
-              <Link to="/articles" className="nav-link active">
+              <Link to="/articles" className="nav-link active" onClick={closeMobileDrawer}>
                 Articles
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link active">
+              <Link to="/about" className="nav-link active" onClick={closeMobileDrawer}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#" onClick={closeMobileDrawer}>
                 Home
               </a>
             </li>
