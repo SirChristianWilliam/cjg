@@ -101,3 +101,9 @@
 .dropdown .btn {
   background-color: #09355f;
 }
+
+.lessen {
+  font-size: 15px;
+  position: absolute;
+  right: 15px;
+}

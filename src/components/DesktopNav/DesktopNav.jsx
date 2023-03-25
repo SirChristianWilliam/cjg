@@ -32,7 +32,10 @@ function DesktopNav() {
                 href="https://www.cbresults.com/homes-for-sale-in-pine-city-mn"
                 target="_blank"
               >
-                Pine City, MN
+                Pine City, MN{" "}
+                <span class="material-symbols-outlined lessen">
+                  open_in_new
+                </span>
               </a>
             </li>
             <li>
@@ -42,6 +45,9 @@ function DesktopNav() {
                 target="_blank"
               >
                 Mora, MN
+                <span class="material-symbols-outlined lessen">
+                  open_in_new
+                </span>
               </a>
             </li>
             <li>
@@ -51,6 +57,9 @@ function DesktopNav() {
                 target="_blank"
               >
                 Rush City, MN
+                <span class="material-symbols-outlined lessen">
+                  open_in_new
+                </span>
               </a>
             </li>
             <li>
@@ -60,6 +69,9 @@ function DesktopNav() {
                 target="_blank"
               >
                 Grasston, MN
+                <span class="material-symbols-outlined lessen">
+                  open_in_new
+                </span>
               </a>
             </li>
             <li>
@@ -69,6 +81,9 @@ function DesktopNav() {
                 target="_blank"
               >
                 Braham, MN
+                <span class="material-symbols-outlined lessen">
+                  open_in_new
+                </span>
               </a>
             </li>
             <li>
@@ -78,6 +93,9 @@ function DesktopNav() {
                 target="_blank"
               >
                 Brook Park, MN
+                <span class="material-symbols-outlined lessen">
+                  open_in_new
+                </span>
               </a>
             </li>
             <li>
@@ -87,6 +105,9 @@ function DesktopNav() {
                 target="_blank"
               >
                 Rock Creek, MN
+                <span class="material-symbols-outlined lessen">
+                  open_in_new
+                </span>
               </a>
             </li>
             <li>
@@ -96,6 +117,9 @@ function DesktopNav() {
                 target="_blank"
               >
                 Hinckley, MN
+                <span class="material-symbols-outlined lessen">
+                  open_in_new
+                </span>
               </a>
             </li>
           </ul>
@@ -172,12 +196,12 @@ function DesktopNav() {
             </svg>
           </a>
           <ul className="dropdown-menu">
-          <Link to="./Sellers/SellersExample">
+            <Link to="./Sellers/SellersExample">
               <li className="dropdown-item" type="button">
                 Article for buyers 1
               </li>
             </Link>
-           
+
             <Link to="./Sellers/SellersExample2">
               <li className="dropdown-item" type="button">
                 Article for Sellers 2
