@@ -10,9 +10,7 @@ function MobileNav() {
 
   // }
   function closeMobileDrawer() {
-    return (
-      alert('yo')
-    )
+    return console.log("yo");
   }
   return (
     <>
@@ -170,22 +168,22 @@ function MobileNav() {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-                <li onClick={closeMobileDrawer}>
-                  <a className="dropdown-item" href="#">
+                <li onClick={closeMobileDrawer} data-bs-dismiss="offcanvas">
+                  <Link to="/Buyers/BuyersExample" className="dropdown-item">
                     Buyers1
-                  </a>
-                  <a className="dropdown-item" href="#">
+                  </Link>
+                  <Link to="/Buyers/BuyersExample2" className="dropdown-item">
                     Buyers2
-                  </a>
-                  <a className="dropdown-item" href="#">
+                  </Link>
+                  <Link to="/Buyers/BuyersExample3" className="dropdown-item">
                     Buyers3
-                  </a>
-                  <a className="dropdown-item" href="#">
+                  </Link>
+                  <Link to="/Buyers/BuyersExample4" className="dropdown-item">
                     Buyers4
-                  </a>
-                  <a className="dropdown-item" href="#">
+                  </Link>
+                  <Link to="/Buyers/BuyersExample5" className="dropdown-item">
                     Buyers5
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -216,37 +214,37 @@ function MobileNav() {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-                <li onClick={closeMobileDrawer}>
-                  <a className="dropdown-item" href="#">
+                <li onClick={closeMobileDrawer} data-bs-dismiss="offcanvas">
+                  <Link to="/Sellers/SellersExample" className="dropdown-item">
                     Sellers1
-                  </a>
-                  <a className="dropdown-item" href="#">
+                  </Link>
+                  <Link to="/Sellers/SellersExample2" className="dropdown-item">
                     Sellers2
-                  </a>
-                  <a className="dropdown-item" href="#">
+                  </Link>
+                  <Link to="/Sellers/SellersExample3" className="dropdown-item">
                     Sellers3
-                  </a>
-                  <a className="dropdown-item" href="#">
+                  </Link>
+                  <Link to="/Sellers/SellersExample4" className="dropdown-item">
                     Sellers4
-                  </a>
-                  <a className="dropdown-item" href="#">
+                  </Link>
+                  <Link to="/Sellers/SellersExample5" className="dropdown-item">
                     Sellers5
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
-              <Link to="/articles" className="nav-link active" onClick={closeMobileDrawer}>
+            <li className="nav-item" data-bs-dismiss="offcanvas">
+              <Link to="/articles" className="nav-link active">
                 Articles
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/about" className="nav-link active" onClick={closeMobileDrawer}>
+            <li className="nav-item" data-bs-dismiss="offcanvas">
+              <Link to="/about" className="nav-link active">
                 About
               </Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#" onClick={closeMobileDrawer}>
+            <li className="nav-item" data-bs-dismiss="offcanvas">
+              <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
             </li>
