@@ -40,7 +40,7 @@ Confer with the client:
         close the pop-up.
     4. Desktop Navigation should have finalized hover effects.
     5. Desktop Navigation media queries readjusted
-    6. Change Banner's phone # from mine to CJs
+    6. ✅ Change Banner's phone # from mine to CJs
     7. Add Bootstrap card to About page/separate testimonials from About paragraph 
     8. Add Bootstrap article card as a template. 
     9. Article's page needs added components to be clicked on from that point as well. 
