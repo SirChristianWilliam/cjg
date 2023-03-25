@@ -7,7 +7,7 @@ function Phone() {
         <div className="container shake">
           <a href="#">
             <span className="material-symbols-outlined">phone_in_talk</span>
-            <span className="phoneLineHeight"> (320)-279-9904</span>
+            <span className="phoneLineHeight"> (320)-629-2114</span>
             <i className="bi bi-list"></i>
           </a>
         </div>

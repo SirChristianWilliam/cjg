@@ -36,7 +36,7 @@ Confer with the client:
 
     1. ✅ Add indication icon on mobile pop-up Listings, Buyers, Sellers
     2. ✅ Mobile pop-up should just say "close" and not "close this tab".
-    3. Articles, About, & Home in Mobile Nav pop-up, when clicked on, should 
+    3. ✅ Articles, About, & Home in Mobile Nav pop-up, when clicked on, should 
         close the pop-up.
     4. Desktop Navigation should have finalized hover effects.
     5. Desktop Navigation media queries readjusted
