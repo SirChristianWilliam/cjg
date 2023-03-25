@@ -73,9 +73,9 @@ function MobileNav() {
                 </svg>
               </a>
               <ul className="dropdown-menu">
-                <li>
+                {/* <li>
                   <button className="dropdown-item">Close</button>
-                </li>
+                </li> */}
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
@@ -160,9 +160,9 @@ function MobileNav() {
                 </svg>
               </a>
               <ul className="dropdown-menu">
-                <li>
+                {/* <li>
                   <button className="dropdown-item">Close</button>
-                </li>
+                </li> */}
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
@@ -206,9 +206,9 @@ function MobileNav() {
                 </svg>
               </a>
               <ul className="dropdown-menu">
-                <li>
+                {/* <li>
                   <button className="dropdown-item">Close</button>
-                </li>
+                </li> */}
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
