@@ -168,7 +168,7 @@ function MobileNav() {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-                <li onClick={closeMobileDrawer} data-bs-dismiss="offcanvas">
+                <li data-bs-dismiss="offcanvas">
                   <Link to="/Buyers/BuyersExample" className="dropdown-item">
                     Buyers1
                   </Link>
@@ -214,7 +214,7 @@ function MobileNav() {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-                <li onClick={closeMobileDrawer} data-bs-dismiss="offcanvas">
+                <li data-bs-dismiss="offcanvas">
                   <Link to="/Sellers/SellersExample" className="dropdown-item">
                     Sellers1
                   </Link>
