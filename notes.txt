@@ -30,7 +30,11 @@ Confer with the client:
     or sometime in the middle I'm going to have to do that manually. Good to learn at least, 
     I should get a hold of someone who uses MUI or Bootstrap and ask them their opinions. 
 
-
+    Bonus: I added homebrew as a system-wide install, allowing me to 
+        brew install tree. This makes it so I can copy and paste my directory's 
+        tree structure into chatGPT, or stack overflow posts and receive 
+        feedback on my structure and see if there are any glaring issues when 
+        deploying, hosting, and/or copiling. 
 
     Friday March 24th todo:
 
