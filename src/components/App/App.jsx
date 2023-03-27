@@ -22,7 +22,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/About" element={<About />} />
-          <Route path="/Articles" element={<Articles />} />
+          <Route path="/Articles/*" element={<Articles />} />
           <Route path="/Buyers/*" element={<Buyers />} />
           <Route path="/Listings" element={<Listings />} />
           <Route path="/MobileNav" element={<MobileNav />} />
