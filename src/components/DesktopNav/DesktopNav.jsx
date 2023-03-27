@@ -33,7 +33,7 @@ function DesktopNav() {
                 target="_blank"
               >
                 Pine City, MN{" "}
-                <span class="material-symbols-outlined lessen">
+                <span className="material-symbols-outlined lessen">
                   open_in_new
                 </span>
               </a>
@@ -45,7 +45,7 @@ function DesktopNav() {
                 target="_blank"
               >
                 Mora, MN
-                <span class="material-symbols-outlined lessen">
+                <span className="material-symbols-outlined lessen">
                   open_in_new
                 </span>
               </a>
@@ -57,7 +57,7 @@ function DesktopNav() {
                 target="_blank"
               >
                 Rush City, MN
-                <span class="material-symbols-outlined lessen">
+                <span className="material-symbols-outlined lessen">
                   open_in_new
                 </span>
               </a>
@@ -69,7 +69,7 @@ function DesktopNav() {
                 target="_blank"
               >
                 Grasston, MN
-                <span class="material-symbols-outlined lessen">
+                <span className="material-symbols-outlined lessen">
                   open_in_new
                 </span>
               </a>
@@ -81,7 +81,7 @@ function DesktopNav() {
                 target="_blank"
               >
                 Braham, MN
-                <span class="material-symbols-outlined lessen">
+                <span className="material-symbols-outlined lessen">
                   open_in_new
                 </span>
               </a>
@@ -93,7 +93,7 @@ function DesktopNav() {
                 target="_blank"
               >
                 Brook Park, MN
-                <span class="material-symbols-outlined lessen">
+                <span className="material-symbols-outlined lessen">
                   open_in_new
                 </span>
               </a>
@@ -105,7 +105,7 @@ function DesktopNav() {
                 target="_blank"
               >
                 Rock Creek, MN
-                <span class="material-symbols-outlined lessen">
+                <span className="material-symbols-outlined lessen">
                   open_in_new
                 </span>
               </a>
@@ -117,7 +117,7 @@ function DesktopNav() {
                 target="_blank"
               >
                 Hinckley, MN
-                <span class="material-symbols-outlined lessen">
+                <span className="material-symbols-outlined lessen">
                   open_in_new
                 </span>
               </a>

@@ -11,6 +11,7 @@ function Buyers() {
     <>
       <h1>Buyers</h1>
       {/* h1 "Buyers" is the template outline for all the articles */}
+      {/*here is the template page*/}
       <Routes>
       <Route path="/BuyersExample" element={<BuyersExample />} />
       <Route path="/BuyersExample2" element={<BuyersExample2 />} />

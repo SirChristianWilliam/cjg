@@ -169,6 +169,8 @@ function MobileNav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li data-bs-dismiss="offcanvas">
+                  {/* Might need to add type="button" on the line above 
+                    for accessibility purposes (screen readers) */}
                   <Link to="/Buyers/BuyersExample" className="dropdown-item">
                     Buyers1
                   </Link>

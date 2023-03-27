@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
+// import './Custom.scss';
 
 // Component imports
 import About from "../About/About";
