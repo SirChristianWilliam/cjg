@@ -27,6 +27,7 @@
   margin-top: 0;
   --bs-dropdown-link-active-bg: "";
   padding-top: 0;
+  --bs-dropdown-divider-bg: "";
 }
 .desktopListings {
   color: black !important;
