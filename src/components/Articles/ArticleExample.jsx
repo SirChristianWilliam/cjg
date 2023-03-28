@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 function ArticleExample() {
   const location = useLocation();
   const isArticlesPath = location.pathname === "/articles";
+  
   return (
     <>
       <div
@@ -33,7 +34,7 @@ function ArticleExample() {
                 analysis, we have compiled a list of the top 5 up-and-coming
                 neighborhoods for real estate investment....
                 {isArticlesPath && (
-                  <Link to="./ArticleExample">Read more...</Link>
+                  <Link to="./articleexample">Read more...</Link>
                 )}
                 {!isArticlesPath && (
                   <p className="card-text">

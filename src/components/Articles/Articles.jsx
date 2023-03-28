@@ -4,8 +4,8 @@ import ArticleExample2 from "./ArticleExample2";
 import ArticleExample3 from "./ArticleExample3";
 import ArticleExample4 from "./ArticleExample4";
 
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import { Link, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Link, useLocation } from "react-router-dom";
+// import { Link, useLocation } from "react-router-dom";
 
 function Articles() {
   const location = useLocation();
