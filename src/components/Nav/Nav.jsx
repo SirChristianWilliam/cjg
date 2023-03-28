@@ -5,6 +5,8 @@ import ProPic from "../ProPic/ProPic";
 import ColdwellLogo from "../ColdwellLogo/ColdwellLogo";
 import MobileNav from "../MobileNav/MobileNav";
 import DesktopNav from "../DesktopNav/DesktopNav";
+import Facebook from "../Facebook/Facebook";
+
 import { Link } from "react-router-dom";
 
 import "./Nav.css";
@@ -18,6 +20,8 @@ function Nav() {
           <Phone />
           <Email />
         </div>
+          <Facebook/>
+
       </nav>
 
       {/* Regular Header Top + Mobile Nav */}
