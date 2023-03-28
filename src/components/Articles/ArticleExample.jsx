@@ -6,24 +6,27 @@ function ArticleExample() {
   const isArticlesPath = location.pathname === "/articles";
   return (
     <>
-      <div class="card mb-3 d-flex" style={{ maxWidth: "75%", margin: "auto" }}>
-        <div class="row g-0 ">
-          <div class="col-md-4">
+      <div
+        className="card mb-3 d-flex"
+        style={{ maxWidth: "75%", margin: "auto" }}
+      >
+        <div className="row g-0 ">
+          <div className="col-md-4">
             <img
               src="Images/articlePlaceholder2.png"
-              class="img-fluid"
+              className="img-fluid"
               //   rounded-start
               alt="article of......"
             />
-            {/* <a href="#" class="stretched-link"></a> */}
+            {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">
                 The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment{" "}
               </h5>
-              <p class="card-text">
+              <p className="card-text">
                 &nbsp; As the real estate market continues to flourish,
                 investors are constantly on the lookout for the next big
                 neighborhood. With the help of industry experts and data
@@ -33,7 +36,7 @@ function ArticleExample() {
                   <Link to="./ArticleExample">Read more...</Link>
                 )}
                 {!isArticlesPath && (
-                  <p class="card-text">
+                  <p className="card-text">
                     &nbsp; 1. East Austin, Texas Once a working-class
                     neighborhood, East Austin has undergone significant
                     gentrification in recent years, making it an attractive
@@ -86,8 +89,8 @@ function ArticleExample() {
                   </p>
                 )}
               </p>
-              <p class="card-text">
-                <small class="text-body-secondary">
+              <p className="card-text">
+                <small className="text-body-secondary">
                   Last updated March 27th, 2023
                 </small>
               </p>

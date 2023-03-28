@@ -6,21 +6,21 @@ function ArticleExample2() {
   const isArticlesPath = location.pathname === "/articles";
   return (
     <>
-      <div class="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
-        <div class="row g-0">
-          <div class="col-md-4">
+      <div className="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
+        <div className="row g-0">
+          <div className="col-md-4">
             <img
               src="Images/articlePlaceholder.png"
-              class="img-fluid rounded-start"
+              className="img-fluid rounded-start"
               alt="..."
             />
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">
                 How to Prepare Your Home for a Successful Sale
               </h5>
-              <p class="card-text">
+              <p className="card-text">
                 &nbsp; If you're planning on selling your home, it's important
                 to take the time to prepare it for a successful sale. By making
                 a few simple changes and improvements, you can increase your
@@ -29,7 +29,7 @@ function ArticleExample2() {
                   <Link to="./ArticleExample2">Read more...</Link>
                 )}
                 {!isArticlesPath && (
-                  <p class="card-text">
+                  <p className="card-text">
                     attract more potential buyers. Here are a few tips to help
                     you get started:
                     <br></br>
@@ -70,8 +70,8 @@ function ArticleExample2() {
                   </p>
                 )}
               </p>
-              <p class="card-text">
-                <small class="text-body-secondary">
+              <p className="card-text">
+                <small className="text-body-secondary">
                   Last updated March 27th, 2023
                 </small>
               </p>

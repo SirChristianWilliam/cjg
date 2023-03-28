@@ -7,8 +7,8 @@ function ArticleExample3() {
 
   return (
     <>
-      <div class="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
-        <div class="row g-0">
+      <div className="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
+        <div className="row g-0">
           <div className="col-md-4">
             <img
               src="Images/articlePlaceholder2.png"
@@ -71,8 +71,8 @@ function ArticleExample3() {
                 )}
               </p>
 
-              <p class="card-text">
-                <small class="text-body-secondary">
+              <p className="card-text">
+                <small className="text-body-secondary">
                   Last updated March 27th, 2023
                 </small>
               </p>

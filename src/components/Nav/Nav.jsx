@@ -20,8 +20,7 @@ function Nav() {
           <Phone />
           <Email />
         </div>
-          <Facebook/>
-
+        <Facebook />
       </nav>
 
       {/* Regular Header Top + Mobile Nav */}
