@@ -5,10 +5,10 @@ function Phone() {
     <>
       <nav className="navbar bg-body-tertiary emailAndPhoneSizing">
         <div className="container shake">
-          <a href="#">
+          <a href="tel:+3206292114">
             <span className="material-symbols-outlined">phone_in_talk</span>
             <span className="phoneLineHeight"> (320)-629-2114</span>
-            <i className="bi bi-list"></i>
+            {/* <i className="bi bi-list"></i> */}
           </a>
         </div>
       </nav>
