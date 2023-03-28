@@ -3,37 +3,38 @@ import { Link, useLocation } from "react-router-dom";
 
 function ArticleExample3() {
   const location = useLocation();
+  const isArticlesPath = location.pathname === "/articles";
+
   const showText = location.pathname.endsWith("/articles/articleexample3");
 
   return (
     <>
-      <h1>Article Example333333</h1>
-
       <div class="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
         <div class="row g-0">
           <div class="col-md-4">
             <img
-              src="/Images/chairs.jpg"
+              src="Images/articlePlaceholder2.png"
               class="img-fluid rounded-start"
               alt="..."
             />
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Card article 3</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
+              This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
-                longer.
+                longer. 
+                  
+                {isArticlesPath && (
+                 <Link to="./ArticleExample3">Read more...</Link>
+                )}
+               
               </p>
-              {showText && (
-                    <h1 class="card-text">yeeeeessss</h1>
-                
-              )}
 
               <p class="card-text">
                 <small class="text-body-secondary">
-                  Last updated 3 mins ago
+                Last updated March 27th, 2023
                 </small>
               </p>
             </div>
