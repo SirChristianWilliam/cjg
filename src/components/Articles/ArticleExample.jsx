@@ -4,18 +4,18 @@ import { Link, useLocation } from "react-router-dom";
 function ArticleExample() {
   return (
     <>
-    <h1>Article Example1</h1>
-
-      <div class="card mb-3" style={{ maxWidth: "75%", margin: "auto" }} >
-        <div class="row g-0">
+      <div class="card mb-3 d-flex" style={{ maxWidth: "75%", margin: "auto" }} >
+        <div class="row g-0 ">
           <div class="col-md-4">
             <img
               src="/Images/chairs.jpg"
-              class="img-fluid rounded-start"
+              class="img-fluid rounded-start position-relative"
               alt="..."
             />
+            <a href="#" class="stretched-link"></a>
+
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8  ">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
@@ -28,6 +28,7 @@ function ArticleExample() {
                   Last updated 3 mins ago
                 </small>
               </p>
+
             </div>
           </div>
         </div>
