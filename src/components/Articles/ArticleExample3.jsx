@@ -1,12 +1,15 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import ArticleExample from "./ArticleExample";
-function ArticleExampleExpanded() {
+
+function ArticleExample3() {
+  const location = useLocation();
+  const showText = location.pathname.endsWith("/Articles/ArticleExample3");
+
   return (
     <>
-    <h1>Article ExampleExpanded</h1>
-    {/* <ArticleExampleEx/> */}
-      <div class="card mb-3" style={{ maxWidth: "75%", margin: "auto" }} >
+      <h1>Article Example333333</h1>
+
+      <div class="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
         <div class="row g-0">
           <div class="col-md-4">
             <img
@@ -23,6 +26,8 @@ function ArticleExampleExpanded() {
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
+              {showText && <p class="card-text">yeeeeessss</p>}
+
               <p class="card-text">
                 <small class="text-body-secondary">
                   Last updated 3 mins ago
@@ -35,4 +40,4 @@ function ArticleExampleExpanded() {
     </>
   );
 }
-export default ArticleExampleExpanded;
+export default ArticleExample3;

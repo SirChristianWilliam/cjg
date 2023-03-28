@@ -1,11 +1,11 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import ArticleExample from "./ArticleExample";
-function ArticleExampleExpanded() {
+
+function ArticleExample4() {
   return (
     <>
-    <h1>Article ExampleExpanded</h1>
-    {/* <ArticleExampleEx/> */}
+    <h1>Article Example44444</h1>
+
       <div class="card mb-3" style={{ maxWidth: "75%", margin: "auto" }} >
         <div class="row g-0">
           <div class="col-md-4">
@@ -32,7 +32,8 @@ function ArticleExampleExpanded() {
           </div>
         </div>
       </div>
+      
     </>
   );
 }
-export default ArticleExampleExpanded;
+export default ArticleExample4;
