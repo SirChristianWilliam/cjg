@@ -13,7 +13,7 @@ function ArticleExample4() {
             <img
               src="Images/articlePlaceholder.png"
               className="img-fluid rounded-start"
-              alt="..."
+              alt="Picture for the article called 'How to Find the Right Real Estate Agent' "
             />
           </div>
           <div className="col-md-8">
@@ -21,7 +21,7 @@ function ArticleExample4() {
               <h5 className="card-title">
                 How to Find the Right Real Estate Agent
               </h5>
-              <p className="card-text">
+              <div className="card-text">
                 &nbsp; Buying or selling a home can be a daunting task, but the
                 right real estate agent can make all the difference. A good
                 agent will...
@@ -76,7 +76,7 @@ function ArticleExample4() {
                     <button>Back to Articles ↩️</button>
                   </>
                 )}
-              </p>
+              </div>
               <p className="card-text">Last updated March 27th, 2023</p>
             </div>
           </div>

@@ -12,7 +12,7 @@ function ArticleExample2() {
             <img
               src="Images/articlePlaceholder.png"
               className="img-fluid rounded-start"
-              alt="..."
+              alt="Picture for the article called 'How to Prepare Your Home for a Successful Sale'"
             />
           </div>
           <div className="col-md-8">
@@ -20,7 +20,7 @@ function ArticleExample2() {
               <h5 className="card-title">
                 How to Prepare Your Home for a Successful Sale
               </h5>
-              <p className="card-text">
+              <div className="card-text">
                 &nbsp; If you're planning on selling your home, it's important
                 to take the time to prepare it for a successful sale. By making
                 a few simple changes and improvements, you can increase your
@@ -69,7 +69,7 @@ function ArticleExample2() {
                     more potential buyers.
                   </p>
                 )}
-              </p>
+              </div>
               <p className="card-text">
                 <small className="text-body-secondary">
                   Last updated March 27th, 2023

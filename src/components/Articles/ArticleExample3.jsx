@@ -13,13 +13,13 @@ function ArticleExample3() {
             <img
               src="Images/articlePlaceholder2.png"
               className="img-fluid rounded-start"
-              alt="..."
+              alt="Picture for the article called 'Advice from a pirate'"
             />
           </div>
           <div className="col-md-8">
             <div className="card-body">
               <h5 className="card-title">Advice from a pirate</h5>
-              <p className="card-text">
+              <div className="card-text">
                 &nbsp; Ahoy there, mateys! 'Tis a fine day to talk about buying
                 a new ship to call yer own - I mean, a new house! Aye, ye heard
                 me right...
@@ -69,7 +69,7 @@ function ArticleExample3() {
                     Jolly Roger and set sail on yer real estate adventure!
                   </p>
                 )}
-              </p>
+              </div>
 
               <p className="card-text">
                 <small className="text-body-secondary">

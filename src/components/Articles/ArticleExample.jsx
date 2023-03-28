@@ -16,7 +16,7 @@ function ArticleExample() {
               src="Images/articlePlaceholder2.png"
               className="img-fluid"
               //   rounded-start
-              alt="article of......"
+              alt="Picture of the article called 'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
             />
             {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}
@@ -26,7 +26,7 @@ function ArticleExample() {
               <h5 className="card-title">
                 The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment{" "}
               </h5>
-              <p className="card-text">
+              <div className="card-text">
                 &nbsp; As the real estate market continues to flourish,
                 investors are constantly on the lookout for the next big
                 neighborhood. With the help of industry experts and data
@@ -88,7 +88,7 @@ function ArticleExample() {
                     to make a sound investment in the future of real estate.
                   </p>
                 )}
-              </p>
+              </div>
               <p className="card-text">
                 <small className="text-body-secondary">
                   Last updated March 27th, 2023
