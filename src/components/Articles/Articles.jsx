@@ -4,7 +4,6 @@ import ArticleExample2 from "./ArticleExample2";
 import ArticleExample3 from "./ArticleExample3";
 import ArticleExample4 from "./ArticleExample4";
 
-import ArticleExampleExpanded from "./ArticleExampleExpanded";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { Link, useLocation } from "react-router-dom";
 
@@ -31,10 +30,10 @@ function Articles() {
         </>
       )}
       <Routes>
-        <Route path="/ArticleExample" element={<ArticleExample />} />
-        <Route path="/ArticleExample2" element={<ArticleExample2 />} />
-        <Route path="/ArticleExample3" element={<ArticleExample3 />} />
-        <Route path="/ArticleExample4" element={<ArticleExample4 />} />
+        <Route path="/articleexample" element={<ArticleExample />} />
+        <Route path="/articleexample2" element={<ArticleExample2 />} />
+        <Route path="/articleexample3" element={<ArticleExample3 />} />
+        <Route path="/articleexample4" element={<ArticleExample4 />} />
       </Routes>
     </>
   );

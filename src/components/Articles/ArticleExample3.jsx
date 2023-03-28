@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 
 function ArticleExample3() {
   const location = useLocation();
-  const showText = location.pathname.endsWith("/Articles/ArticleExample3");
+  const showText = location.pathname.endsWith("/articles/articleexample3");
 
   return (
     <>
@@ -26,7 +26,10 @@ function ArticleExample3() {
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
-              {showText && <p class="card-text">yeeeeessss</p>}
+              {showText && (
+                    <h1 class="card-text">yeeeeessss</h1>
+                
+              )}
 
               <p class="card-text">
                 <small class="text-body-secondary">
