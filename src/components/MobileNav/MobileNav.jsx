@@ -171,19 +171,19 @@ function MobileNav() {
                 <li data-bs-dismiss="offcanvas">
                   {/* Might need to add type="button" on the line above 
                     for accessibility purposes (screen readers) */}
-                  <Link to="/Buyers/BuyersExample" className="dropdown-item">
+                  <Link to="/buyers/buyersexample" className="dropdown-item">
                     Buyers1
                   </Link>
-                  <Link to="/Buyers/BuyersExample2" className="dropdown-item">
+                  <Link to="/buyers/buyersexample2" className="dropdown-item">
                     Buyers2
                   </Link>
-                  <Link to="/Buyers/BuyersExample3" className="dropdown-item">
+                  <Link to="/buyers/buyersexample3" className="dropdown-item">
                     Buyers3
                   </Link>
-                  <Link to="/Buyers/BuyersExample4" className="dropdown-item">
+                  <Link to="/buyers/buyersexample4" className="dropdown-item">
                     Buyers4
                   </Link>
-                  <Link to="/Buyers/BuyersExample5" className="dropdown-item">
+                  <Link to="/buyers/buyersexample5" className="dropdown-item">
                     Buyers5
                   </Link>
                 </li>

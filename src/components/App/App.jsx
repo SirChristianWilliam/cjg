@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
+
 import "./App.css";
 // import './Custom.scss';
 
@@ -21,12 +22,12 @@ function App() {
         {/* Always show the Nav */}
         <Nav />
         <Routes>
-          <Route path="/About" element={<About />} />
-          <Route path="/Articles/*" element={<Articles />} />
-          <Route path="/Buyers/*" element={<Buyers />} />
-          <Route path="/Listings" element={<Listings />} />
-          <Route path="/MobileNav" element={<MobileNav />} />
-          <Route path="/Sellers/*" element={<Sellers />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/articles/*" element={<Articles />} />
+          <Route path="/buyers/*" element={<Buyers />} />
+          <Route path="/listings" element={<Listings />} />
+          <Route path="/mobileNav" element={<MobileNav />} />
+          <Route path="/sellers/*" element={<Sellers />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
