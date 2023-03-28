@@ -217,19 +217,19 @@ function MobileNav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li data-bs-dismiss="offcanvas">
-                  <Link to="/Sellers/SellersExample" className="dropdown-item">
+                  <Link to="/sellers/sellersexample" className="dropdown-item">
                     Sellers1
                   </Link>
-                  <Link to="/Sellers/SellersExample2" className="dropdown-item">
+                  <Link to="/sellers/sellersexample2" className="dropdown-item">
                     Sellers2
                   </Link>
-                  <Link to="/Sellers/SellersExample3" className="dropdown-item">
+                  <Link to="/sellers/sellersexample3" className="dropdown-item">
                     Sellers3
                   </Link>
-                  <Link to="/Sellers/SellersExample4" className="dropdown-item">
+                  <Link to="/sellers/sellersexample4" className="dropdown-item">
                     Sellers4
                   </Link>
-                  <Link to="/Sellers/SellersExample5" className="dropdown-item">
+                  <Link to="/sellers/sellersexample5" className="dropdown-item">
                     Sellers5
                   </Link>
                 </li>

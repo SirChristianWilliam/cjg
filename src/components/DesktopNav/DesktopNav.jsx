@@ -196,28 +196,28 @@ function DesktopNav() {
             </svg>
           </a>
           <ul className="dropdown-menu">
-            <Link to="./Sellers/SellersExample">
+            <Link to="./sellers/sellersexample">
               <li className="dropdown-item" type="button">
                 Article for buyers 1
               </li>
             </Link>
 
-            <Link to="./Sellers/SellersExample2">
+            <Link to="./sellers/sellersexample2">
               <li className="dropdown-item" type="button">
                 Article for Sellers 2
               </li>
             </Link>
-            <Link to="./Sellers/SellersExample3">
+            <Link to="./sellers/sellersexample3">
               <li className="dropdown-item" type="button">
                 Article for Sellers 3
               </li>
             </Link>
-            <Link to="./Sellers/SellersExample4">
+            <Link to="./sellers/sellersexample4">
               <li className="dropdown-item" type="button">
                 Article for Sellers 4
               </li>
             </Link>
-            <Link to="./Sellers/SellersExample5">
+            <Link to="./sellers/sellersexample5">
               <li className="dropdown-item" type="button">
                 Article for Sellers 5
               </li>

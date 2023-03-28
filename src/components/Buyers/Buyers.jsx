@@ -13,11 +13,11 @@ import BuyersExample2 from "./BuyersExample2";
 import BuyersExample3 from "./BuyersExample3";
 import BuyersExample4 from "./BuyersExample4";
 import BuyersExample5 from "./BuyersExample5";
+
 function Buyers() {
   const location = useLocation();
-  const isArticlesPath = location.pathname === "/buyers";
-  const isBuyersPath = location.pathname.endsWith("/buyers");
   const navigate = useNavigate();
+
   useEffect(() => {
     const pathParts = location.pathname.split("/");
     if (pathParts[1] === "buyers") {
