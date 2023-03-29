@@ -13,7 +13,7 @@ function ArticleExample3() {
             <img
               src="Images/articlePlaceholder2.png"
               className="img-fluid rounded-start"
-              alt="Picture for the article called 'Advice from a pirate'"
+              alt="'Advice from a pirate'"
             />
           </div>
           <div className="col-md-8">

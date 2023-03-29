@@ -13,7 +13,7 @@ function BuyersExample() {
               src="Images/catcar.png"
               className="img-fluid"
               //   rounded-start
-              alt="Picture for the article 'Car insurance? Home insurance? Why not both?'"
+              alt="'Car insurance? Home insurance? Why not both?'"
             />
             {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}

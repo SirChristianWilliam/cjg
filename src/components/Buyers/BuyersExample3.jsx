@@ -13,7 +13,7 @@ function BuyersExample3() {
               src="Images/articlePlaceholder2.png"
               className="img-fluid"
               //   rounded-start
-              alt="Picture of the article called 'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
+              alt="'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
             />
             {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}

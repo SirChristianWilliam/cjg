@@ -13,7 +13,7 @@ function SellersExample() {
               src="Images/sandtime.png"
               className="img-fluid"
               //   rounded-start
-              alt="Picture for the article called 'What time is the right time to sell?'"
+              alt="'What time is the right time to sell?'"
             />
             {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}

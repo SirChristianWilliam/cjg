@@ -12,7 +12,7 @@ function ArticleExample2() {
             <img
               src="Images/articlePlaceholder.png"
               className="img-fluid rounded-start"
-              alt="Picture for the article called 'How to Prepare Your Home for a Successful Sale'"
+              alt="'How to Prepare Your Home for a Successful Sale'"
             />
           </div>
           <div className="col-md-8">

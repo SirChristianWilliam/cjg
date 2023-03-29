@@ -13,7 +13,7 @@ function ArticleExample4() {
             <img
               src="Images/articlePlaceholder.png"
               className="img-fluid rounded-start"
-              alt="Picture for the article called 'How to Find the Right Real Estate Agent' "
+              alt="'How to Find the Right Real Estate Agent' "
             />
           </div>
           <div className="col-md-8">
