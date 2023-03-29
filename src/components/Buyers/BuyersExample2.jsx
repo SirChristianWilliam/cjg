@@ -25,6 +25,7 @@ function BuyersExample2() {
               </h5>
               <div className="card-text">
                 <p className="card-text">
+                  <br></br>
                   &nbsp; Buying a home can be an exciting and rewarding
                   experience, but it can also be stressful and overwhelming. The
                   home buying process involves many steps and can take several

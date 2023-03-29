@@ -25,6 +25,7 @@ function BuyersExample() {
               </h5>
               <div className="card-text">
                 <p className="card-text">
+                  <br></br>
                   &nbsp; As a homeowner, you understand the importance of
                   protecting your property from unforeseen circumstances. In
                   addition to safeguarding your home, it's equally important to

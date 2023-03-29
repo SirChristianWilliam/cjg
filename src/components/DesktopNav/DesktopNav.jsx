@@ -204,7 +204,7 @@ function DesktopNav() {
 
             <Link to="./sellers/sellersexample2">
               <li className="dropdown-item" type="button">
-                Article for Sellers 2
+              Look out for these common scams when selling your home.
               </li>
             </Link>
             <Link to="./sellers/sellersexample3">

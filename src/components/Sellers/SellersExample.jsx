@@ -25,6 +25,7 @@ function SellersExample() {
               </h5>
               <div className="card-text">
                 <p className="card-text">
+                  <br></br>
                   &nbsp; Selling a property is a significant decision that
                   requires careful consideration. One of the essential factors
                   to keep in mind is timing. Knowing when the right time to sell
@@ -38,7 +39,6 @@ function SellersExample() {
                   to sell.
                   <br></br>
                   <br></br>
-
                   &nbsp; 1. Market Conditions The real estate market is
                   constantly fluctuating, and market conditions can
                   significantly impact the sale price and how long it takes to
@@ -75,7 +75,6 @@ function SellersExample() {
                   circumstances when determining when to sell.
                   <br></br>
                   <br></br>
-
                   &nbsp; In conclusion, determining the right time to sell is a
                   crucial factor in the sale price and how long it takes to
                   sell. Consider market conditions, interest rates, seasonality,

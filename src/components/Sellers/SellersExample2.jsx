@@ -10,10 +10,10 @@ function SellersExample2() {
         <div className="row g-0 ">
           <div className="col-md-4">
             <img
-              src="Images/articlePlaceholder2.png"
+              src="Images/cybersecurity.png"
               className="img-fluid"
               //   rounded-start
-              alt="'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
+              alt="'Anonymous the organization, white masked character with a creepy look and dark and insidious feeling tech background' "
             />
             {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}
@@ -21,61 +21,67 @@ function SellersExample2() {
           <div className="col-md-8">
             <div className="card-body">
               <h5 className="card-title">
-                The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment{" "}
+                Look out for these common scams when selling your home.
               </h5>
               <div className="card-text">
                 <p className="card-text">
-                  &nbsp; As the real estate market continues to flourish,
-                  investors are constantly on the lookout for the next big
-                  neighborhood. With the help of industry experts and data
-                  analysis, we have compiled a list of the top 5 up-and-coming
-                  neighborhoods for real estate investment. &nbsp; 1. East
-                  Austin, Texas Once a working-class neighborhood, East Austin
-                  has undergone significant gentrification in recent years,
-                  making it an attractive location for young professionals and
-                  families. The area boasts a vibrant arts scene, trendy
-                  restaurants, and a strong sense of community. Real estate
-                  prices are still relatively affordable compared to other parts
-                  of Austin, but they're quickly rising, making now the perfect
-                  time to invest.
                   <br></br>
-                  &nbsp; 2. West Adams, Los Angeles West Adams has long been a
-                  hidden gem in Los Angeles, but it's quickly gaining popularity
-                  among investors and homebuyers. The neighborhood's stunning
-                  historic homes and tree-lined streets are a major draw, and
-                  it's becoming known for its burgeoning food and art scenes.
-                  With new development projects in the works, real estate values
-                  are expected to skyrocket in the coming years.
+                  Selling a home can be a daunting task, but unfortunately, it
+                  can also make you vulnerable to scammers. Scammers are known
+                  for targeting homeowners who are looking to sell their
+                  property, and it's essential to be aware of the common scams
+                  to protect yourself from falling victim to them. Here are some
+                  of the most common scams to look out for when selling your
+                  home.
                   <br></br>
-                  &nbsp; 3. West Loop, Chicago Once an industrial area, the West
-                  Loop has transformed into a chic neighborhood filled with
-                  luxury condos, trendy restaurants, and high-end boutiques. Its
-                  proximity to downtown Chicago makes it an attractive location
-                  for young professionals, and with new development projects in
-                  the works, there's plenty of potential for growth.
                   <br></br>
-                  &nbsp; 4. Brewerytown, Philadelphia Brewerytown, once home to
-                  several large breweries, is experiencing a revival. The
-                  neighborhood has seen significant investment in recent years,
-                  including new housing developments and a thriving arts scene.
-                  Its proximity to Center City Philadelphia and the Schuylkill
-                  River Trail make it an attractive location for both residents
-                  and visitors.
+                  &nbsp; 1. Phishing Scams Phishing scams are prevalent in the
+                  real estate industry, and they involve scammers posing as real
+                  estate agents, title companies, or other legitimate entities
+                  to steal personal and financial information. These scammers
+                  may send emails or make phone calls requesting personal
+                  information, such as social security numbers or bank account
+                  details. It's crucial to be cautious when providing personal
+                  information and to verify the legitimacy of any requests.
                   <br></br>
-                  &nbsp; 5. Capitol Hill, Seattle Capitol Hill has long been one
-                  of Seattle's most desirable neighborhoods, but it's recently
-                  seen a surge in popularity. Its walkable streets, eclectic mix
-                  of shops and restaurants, and proximity to downtown Seattle
-                  make it an attractive location for young professionals. With
-                  new development projects in the works, real estate values are
-                  expected to continue to rise.
+                  &nbsp; 2. Wire Transfer Scams Wire transfer scams are another
+                  common scam in the real estate industry. In this type of scam,
+                  scammers pose as real estate agents or title companies and
+                  request wire transfers for closing costs or other expenses.
+                  The scammers provide fake wire transfer instructions, and once
+                  the money is transferred, it's nearly impossible to recover.
+                  It's important to verify wire transfer instructions with your
+                  bank or title company and to be cautious when sending large
+                  sums of money.
                   <br></br>
-                  &nbsp; Investing in real estate can be a lucrative
-                  opportunity, but it's important to do your research and choose
-                  the right location. These up-and-coming neighborhoods offer
-                  plenty of potential for growth and a strong return on
-                  investment, making them smart choices for investors looking to
-                  make a sound investment in the future of real estate.
+                  &nbsp; 3. Fake Cashier's Check Scams Fake cashier's check
+                  scams involve scammers sending fake cashier's checks to
+                  homeowners and requesting that they deposit them and send a
+                  portion of the funds back. The checks appear to be legitimate,
+                  but they're actually counterfeit. Once the check is deposited,
+                  the homeowner sends the requested funds, and then the bank
+                  discovers the check is fake, leaving the homeowner responsible
+                  for the full amount. It's important to verify the authenticity
+                  of any cashier's check and to be cautious when sending funds
+                  back to a buyer.
+                  <br></br>
+                  &nbsp; 4. Identity Theft Scams Identity theft scams are
+                  another common scam in the real estate industry. These scams
+                  involve scammers stealing personal information, such as social
+                  security numbers or credit card details, and using it to make
+                  fraudulent purchases or open new accounts. It's important to
+                  be cautious when providing personal information and to monitor
+                  your accounts for any unauthorized activity.
+                  <br></br>
+                  <br></br>
+                  &nbsp; In conclusion, it's important to be aware of the common
+                  scams in the real estate industry when selling your home. Look
+                  out for phishing scams, wire transfer scams, fake cashier's
+                  check scams, and identity theft scams. Be cautious when
+                  providing personal information, verify wire transfer
+                  instructions and cashier's checks, and monitor your accounts
+                  for any unauthorized activity. By being aware of these common
+                  scams, you can protect yourself and ensure a successful sale.
                 </p>
               </div>
               <p className="card-text">
