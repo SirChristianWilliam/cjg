@@ -11,7 +11,7 @@ function About() {
           colleagues, customers, and friends. Many know her as CJ from her years
           as a local business owner and writer for the Pine City Pioneer. Now
           she puts her people skills and honest, hardworking reputation to good
-          use at Coldwell Banker Results, helping others pursue their dreams and
+          use at Edina Realty Results, helping others pursue their dreams and
           find their next perfect place. As an outdoor and water enthusiast, Cat
           keeps a special watch on land and lakefront properties. Her background
           in construction brings valuable knowledge as well, especially for

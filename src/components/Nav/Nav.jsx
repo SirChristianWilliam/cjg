@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Phone from "../Phone/Phone";
 import Email from "../Email/Email";
 import ProPic from "../ProPic/ProPic";
-import ColdwellLogo from "../ColdwellLogo/ColdwellLogo";
+import EdinaLogo from "../EdinaLogo/ColdwellLogo";
 import MobileNav from "../MobileNav/MobileNav";
 import DesktopNav from "../DesktopNav/DesktopNav";
 import Facebook from "../Facebook/Facebook";
@@ -27,7 +27,7 @@ function Nav() {
       <nav className="navbar primaryBackgroundColor">
         <div className="container-fluid">
           <div className="justify-content-start coldAndPro">
-            <ColdwellLogo />
+            <EdinaLogo />
             <ProPic />
           </div>
           {/* This is the mobile Nav view, viewport <= 500px */}
