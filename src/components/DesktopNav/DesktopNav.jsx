@@ -158,7 +158,7 @@ function DesktopNav() {
             </Link>
             <Link to="./buyers/buyersexample3">
               <li className="dropdown-item" type="button">
-                Article for buyers
+              Don't Get Burned: The Benefits of Fire Insurance in Real Estate     
               </li>
             </Link>
             <Link to="./buyers/buyersexample4">

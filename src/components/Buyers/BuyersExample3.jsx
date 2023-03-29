@@ -10,7 +10,7 @@ function BuyersExample3() {
         <div className="row g-0 ">
           <div className="col-md-4">
             <img
-              src="Images/articlePlaceholder2.png"
+              src="Images/insurance.png"
               className="img-fluid"
               //   rounded-start
               alt="'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
@@ -21,61 +21,67 @@ function BuyersExample3() {
           <div className="col-md-8">
             <div className="card-body">
               <h5 className="card-title">
-                The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment{" "}
+                Don't Get Burned: The Benefits of Fire Insurance in Real Estate
               </h5>
               <div className="card-text">
                 <p className="card-text">
-                  &nbsp; As the real estate market continues to flourish,
-                  investors are constantly on the lookout for the next big
-                  neighborhood. With the help of industry experts and data
-                  analysis, we have compiled a list of the top 5 up-and-coming
-                  neighborhoods for real estate investment. &nbsp; 1. East
-                  Austin, Texas Once a working-class neighborhood, East Austin
-                  has undergone significant gentrification in recent years,
-                  making it an attractive location for young professionals and
-                  families. The area boasts a vibrant arts scene, trendy
-                  restaurants, and a strong sense of community. Real estate
-                  prices are still relatively affordable compared to other parts
-                  of Austin, but they're quickly rising, making now the perfect
-                  time to invest.
                   <br></br>
-                  &nbsp; 2. West Adams, Los Angeles West Adams has long been a
-                  hidden gem in Los Angeles, but it's quickly gaining popularity
-                  among investors and homebuyers. The neighborhood's stunning
-                  historic homes and tree-lined streets are a major draw, and
-                  it's becoming known for its burgeoning food and art scenes.
-                  With new development projects in the works, real estate values
-                  are expected to skyrocket in the coming years.
+                  &nbsp; As a homeowner or real estate investor, it's crucial to
+                  protect your property from unexpected disasters like fires.
+                  While prevention is always the best course of action, it's
+                  also essential to have the right insurance coverage in place
+                  to protect yourself financially in case of a fire. In this
+                  article, we'll discuss the benefits of fire insurance and
+                  provide some tips on how to prevent fires that may not be
+                  covered by your insurance policy.
                   <br></br>
-                  &nbsp; 3. West Loop, Chicago Once an industrial area, the West
-                  Loop has transformed into a chic neighborhood filled with
-                  luxury condos, trendy restaurants, and high-end boutiques. Its
-                  proximity to downtown Chicago makes it an attractive location
-                  for young professionals, and with new development projects in
-                  the works, there's plenty of potential for growth.
                   <br></br>
-                  &nbsp; 4. Brewerytown, Philadelphia Brewerytown, once home to
-                  several large breweries, is experiencing a revival. The
-                  neighborhood has seen significant investment in recent years,
-                  including new housing developments and a thriving arts scene.
-                  Its proximity to Center City Philadelphia and the Schuylkill
-                  River Trail make it an attractive location for both residents
-                  and visitors.
+                  &nbsp; Benefits of Fire Insurance:
                   <br></br>
-                  &nbsp; 5. Capitol Hill, Seattle Capitol Hill has long been one
-                  of Seattle's most desirable neighborhoods, but it's recently
-                  seen a surge in popularity. Its walkable streets, eclectic mix
-                  of shops and restaurants, and proximity to downtown Seattle
-                  make it an attractive location for young professionals. With
-                  new development projects in the works, real estate values are
-                  expected to continue to rise.
+                  &nbsp; &nbsp; Fire insurance is a type of property insurance
+                  that covers losses and damages caused by fires. Having fire
+                  insurance can give you peace of mind knowing that you're
+                  financially protected in case of a fire.
                   <br></br>
-                  &nbsp; Investing in real estate can be a lucrative
-                  opportunity, but it's important to do your research and choose
-                  the right location. These up-and-coming neighborhoods offer
-                  plenty of potential for growth and a strong return on
-                  investment, making them smart choices for investors looking to
-                  make a sound investment in the future of real estate.
+                  &nbsp; Fire insurance policies typically cover damage to the
+                  structure of the property, personal belongings, and any
+                  additional living expenses incurred due to the fire, such as
+                  temporary housing. In addition to providing financial
+                  protection, fire insurance can also be a requirement from
+                  mortgage lenders and local government authorities.
+                  <br></br>
+                  &nbsp; Without fire insurance, you may not be able to obtain a
+                  mortgage or meet local building codes and regulations.
+                  <br></br>
+                  &nbsp; Ways to Prevent Fires:
+                  <br></br>
+                  &nbsp; &nbsp; While fire insurance is an essential component
+                  of protecting your property, prevention is always the best
+                  course of action. Here are some tips on how to prevent fires
+                  that may not be covered by your insurance policy: &nbsp;
+                  <br></br>⊛ Install smoke detectors: Smoke detectors can detect
+                  smoke before a fire starts and provide early warning to
+                  evacuate the property. &nbsp;
+                  <br></br>⊛ Check electrical appliances: Electrical appliances
+                  and wiring can be a common cause of fires. Check your
+                  appliances regularly and replace any frayed or damaged cords.
+                  &nbsp;
+                  <br></br>⊛ Keep flammable materials away from heat sources:
+                  Flammable materials like paper, clothing, and cleaning
+                  supplies should be kept away from heat sources like stoves,
+                  heaters, and open flames. &nbsp;
+                  <br></br>⊛ Practice safe smoking habits: Smoking materials
+                  like cigarettes and lighters should be kept away from
+                  flammable materials, and smoking should never be done in bed
+                  or when tired. &nbsp;
+                  <br></br>
+                  <br></br>
+                  In conclusion, having fire insurance is an essential component
+                  of protecting your property and finances in case of a fire.
+                  However, prevention is always the best course of action, and
+                  there are several ways to prevent fires that may not be
+                  covered by your insurance policy. By following these tips, you
+                  can help ensure the safety of your property and loved ones.
                 </p>
               </div>
               <p className="card-text">

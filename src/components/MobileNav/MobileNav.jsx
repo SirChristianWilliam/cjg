@@ -178,7 +178,7 @@ function MobileNav() {
                   Buying a home? Find your inner peace.
                   </Link>
                   <Link to="/buyers/buyersexample3" className="dropdown-item">
-                    Buyers3
+                  Don't Get Burned: The Benefits of Fire Insurance in Real Estate     
                   </Link>
                   <Link to="/buyers/buyersexample4" className="dropdown-item">
                     Buyers4
