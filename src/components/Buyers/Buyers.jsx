@@ -36,7 +36,6 @@ function Buyers() {
   }, [location, navigate]);
   return (
     <>
-      <h1>Buyers</h1>
       {/* h1 "Buyers" is the template outline for all the articles */}
       {/*here is the template page*/}
 

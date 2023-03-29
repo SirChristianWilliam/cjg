@@ -36,7 +36,6 @@ function Sellers() {
   }, [location, navigate]);
   return (
     <>
-      <h1>Sellers</h1>
       <Routes>
         <Route path="/SellersExample" element={<SellersExample />} />
         <Route path="/SellersExample2" element={<SellersExample2 />} />
