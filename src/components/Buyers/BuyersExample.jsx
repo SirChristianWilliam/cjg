@@ -13,7 +13,7 @@ function BuyersExample() {
               src="Images/catcar.png"
               className="img-fluid"
               //   rounded-start
-              alt="'Car insurance? Home insurance? Why not both?'"
+              alt="'Cute 3d animated cat riding in a small car, cheerful colors.'"
             />
             {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}
@@ -21,7 +21,7 @@ function BuyersExample() {
           <div className="col-md-8">
             <div className="card-body">
               <h5 className="card-title">
-                &nbsp; Car insurance? Home insurance? Why not both?
+                Car insurance? Home insurance? Why not both?
               </h5>
               <div className="card-text">
                 <p className="card-text">

@@ -13,7 +13,7 @@ function SellersExample() {
               src="Images/sandtime.png"
               className="img-fluid"
               //   rounded-start
-              alt="'What time is the right time to sell?'"
+              alt="'Hourglass in the desert sand, the vibe is overcast and gloomy and cinematic'"
             />
             {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}
@@ -21,7 +21,7 @@ function SellersExample() {
           <div className="col-md-8">
             <div className="card-body">
               <h5 className="card-title">
-                &nbsp; What time is the right time to sell?
+                What time is the right time to sell?
               </h5>
               <div className="card-text">
                 <p className="card-text">
@@ -37,6 +37,8 @@ function SellersExample() {
                   considerations to keep in mind when determining the right time
                   to sell.
                   <br></br>
+                  <br></br>
+
                   &nbsp; 1. Market Conditions The real estate market is
                   constantly fluctuating, and market conditions can
                   significantly impact the sale price and how long it takes to
@@ -72,6 +74,8 @@ function SellersExample() {
                   factors. It's essential to consider your personal
                   circumstances when determining when to sell.
                   <br></br>
+                  <br></br>
+
                   &nbsp; In conclusion, determining the right time to sell is a
                   crucial factor in the sale price and how long it takes to
                   sell. Consider market conditions, interest rates, seasonality,

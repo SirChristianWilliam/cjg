@@ -153,7 +153,7 @@ function DesktopNav() {
             </Link>
             <Link to="./buyers/buyersexample2">
               <li className="dropdown-item" type="button">
-                Article for buyers
+              Buying a home? Find your inner peace.
               </li>
             </Link>
             <Link to="./buyers/buyersexample3">

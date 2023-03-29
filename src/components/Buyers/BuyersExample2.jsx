@@ -10,10 +10,10 @@ function BuyersExample2() {
         <div className="row g-0 ">
           <div className="col-md-4">
             <img
-              src="Images/articlePlaceholder2.png"
+              src="Images/innerpeace.png"
               className="img-fluid"
               //   rounded-start
-              alt="'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
+              alt="'Human-conscious turtle meditating with its hands together to find inner peace on a rock in a pond.'"
             />
             {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}
@@ -21,61 +21,73 @@ function BuyersExample2() {
           <div className="col-md-8">
             <div className="card-body">
               <h5 className="card-title">
-                The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment{" "}
+                Buying a home? Find your inner peace.
               </h5>
               <div className="card-text">
                 <p className="card-text">
-                  &nbsp; As the real estate market continues to flourish,
-                  investors are constantly on the lookout for the next big
-                  neighborhood. With the help of industry experts and data
-                  analysis, we have compiled a list of the top 5 up-and-coming
-                  neighborhoods for real estate investment. &nbsp; 1. East
-                  Austin, Texas Once a working-class neighborhood, East Austin
-                  has undergone significant gentrification in recent years,
-                  making it an attractive location for young professionals and
-                  families. The area boasts a vibrant arts scene, trendy
-                  restaurants, and a strong sense of community. Real estate
-                  prices are still relatively affordable compared to other parts
-                  of Austin, but they're quickly rising, making now the perfect
-                  time to invest.
+                  &nbsp; Buying a home can be an exciting and rewarding
+                  experience, but it can also be stressful and overwhelming. The
+                  home buying process involves many steps and can take several
+                  months, which can cause anxiety and stress. However, finding
+                  inner peace and not letting yourself get stressed during the
+                  home buying process is possible. Here are some tips to help
+                  you find peace of mind during the home buying process.
                   <br></br>
-                  &nbsp; 2. West Adams, Los Angeles West Adams has long been a
-                  hidden gem in Los Angeles, but it's quickly gaining popularity
-                  among investors and homebuyers. The neighborhood's stunning
-                  historic homes and tree-lined streets are a major draw, and
-                  it's becoming known for its burgeoning food and art scenes.
-                  With new development projects in the works, real estate values
-                  are expected to skyrocket in the coming years.
                   <br></br>
-                  &nbsp; 3. West Loop, Chicago Once an industrial area, the West
-                  Loop has transformed into a chic neighborhood filled with
-                  luxury condos, trendy restaurants, and high-end boutiques. Its
-                  proximity to downtown Chicago makes it an attractive location
-                  for young professionals, and with new development projects in
-                  the works, there's plenty of potential for growth.
+                  1. Be Prepared
                   <br></br>
-                  &nbsp; 4. Brewerytown, Philadelphia Brewerytown, once home to
-                  several large breweries, is experiencing a revival. The
-                  neighborhood has seen significant investment in recent years,
-                  including new housing developments and a thriving arts scene.
-                  Its proximity to Center City Philadelphia and the Schuylkill
-                  River Trail make it an attractive location for both residents
-                  and visitors.
+                  &nbsp; One of the most significant sources of stress during
+                  the home buying process is feeling unprepared. Before you
+                  start looking for a home, take the time to educate yourself
+                  about the process. Learn about the different types of
+                  mortgages, the home buying timeline, and the costs involved in
+                  buying a home. This knowledge will help you feel more
+                  confident and prepared during the home buying process.
                   <br></br>
-                  &nbsp; 5. Capitol Hill, Seattle Capitol Hill has long been one
-                  of Seattle's most desirable neighborhoods, but it's recently
-                  seen a surge in popularity. Its walkable streets, eclectic mix
-                  of shops and restaurants, and proximity to downtown Seattle
-                  make it an attractive location for young professionals. With
-                  new development projects in the works, real estate values are
-                  expected to continue to rise.
+                  2. Set Realistic Expectations
                   <br></br>
-                  &nbsp; Investing in real estate can be a lucrative
-                  opportunity, but it's important to do your research and choose
-                  the right location. These up-and-coming neighborhoods offer
-                  plenty of potential for growth and a strong return on
-                  investment, making them smart choices for investors looking to
-                  make a sound investment in the future of real estate.
+                  &nbsp; Another source of stress during the home buying process
+                  is setting unrealistic expectations. Many buyers have a
+                  specific idea of what they're looking for in a home, which can
+                  make it challenging to find the right property. Be open to
+                  different options and understand that compromises may need to
+                  be made. It's essential to have realistic expectations to
+                  avoid disappointment and stress during the home buying
+                  process.
+                  <br></br>
+                  3. Work with a Professional
+                  <br></br>
+                  &nbsp; Working with a professional, such as a real estate
+                  agent or mortgage broker, can help alleviate stress during the
+                  home buying process. A real estate agent can help you navigate
+                  the home buying process and provide valuable insights into the
+                  local market. A mortgage broker can help you find the best
+                  mortgage rates and guide you through the financing process.
+                  <br></br>
+                  4. Take Breaks
+                  <br></br>
+                  &nbsp; It's essential to take breaks and prioritize self-care
+                  during the home buying process. Take time to do activities
+                  that you enjoy, such as exercise, reading, or spending time
+                  with loved ones. Taking breaks can help you recharge and
+                  reduce stress levels.
+                  <br></br>
+                  5. Practice Mindfulness
+                  <br></br>
+                  &nbsp; Practicing mindfulness, such as meditation or deep
+                  breathing exercises, can help you find inner peace during the
+                  home buying process. Mindfulness can help you focus on the
+                  present moment and reduce anxiety about the future. There are
+                  many mindfulness apps and resources available to help you
+                  incorporate mindfulness practices into your daily routine.
+                  <br></br>
+                  <br></br>
+                  &nbsp; In conclusion, finding inner peace and not letting
+                  yourself get stressed during the home buying process is
+                  possible. Be prepared, set realistic expectations, work with a
+                  professional, take breaks, and practice mindfulness. By
+                  following these tips, you can find peace of mind and enjoy the
+                  home buying process.
                 </p>
               </div>
               <p className="card-text">

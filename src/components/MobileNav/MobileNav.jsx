@@ -175,7 +175,7 @@ function MobileNav() {
                   Car insurance? Home insurance? Why not both?
                   </Link>
                   <Link to="/buyers/buyersexample2" className="dropdown-item">
-                    Buyers2
+                  Buying a home? Find your inner peace.
                   </Link>
                   <Link to="/buyers/buyersexample3" className="dropdown-item">
                     Buyers3
