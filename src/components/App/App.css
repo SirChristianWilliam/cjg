@@ -2,7 +2,7 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-image: url(/public/Images/mobile2.jpg);
+  background-image: url(/public/Images/choice2.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -27,17 +27,14 @@ body {
   box-shadow: 0px 0px 10px rgb(27, 182, 163);
 }
 
-
-
 .navbar {
   display: flex;
   flex-wrap: nowrap;
-  
 }
 /* 950px and up will be designed for desktop */
 @media only screen and (min-width: 950px) {
   body {
-    background-image: url(/public/Images/mobile2.jpg);
+    background-image: url(/public/Images/choice2.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -47,7 +44,7 @@ body {
 
 @media only screen and (max-width: 500px) {
   body {
-    background-image: url(/public/Images/mobile2.jpg);
+    background-image: url(/public/Images/mobile1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -80,13 +77,6 @@ body {
   }
 }
 
-
-
- .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
- 
