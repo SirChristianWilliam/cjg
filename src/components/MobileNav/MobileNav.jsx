@@ -172,7 +172,7 @@ function MobileNav() {
                   {/* Might need to add type="button" on the line above 
                     for accessibility purposes (screen readers) */}
                   <Link to="/buyers/buyersexample" className="dropdown-item">
-                    Buyers1
+                  Car insurance? Home insurance? Why not both?
                   </Link>
                   <Link to="/buyers/buyersexample2" className="dropdown-item">
                     Buyers2
@@ -218,7 +218,7 @@ function MobileNav() {
                 </li>
                 <li data-bs-dismiss="offcanvas">
                   <Link to="/sellers/sellersexample" className="dropdown-item">
-                    Sellers1
+                  What time is the right time to sell?
                   </Link>
                   <Link to="/sellers/sellersexample2" className="dropdown-item">
                     Sellers2

@@ -10,10 +10,10 @@ function BuyersExample() {
         <div className="row g-0 ">
           <div className="col-md-4">
             <img
-              src="Images/articlePlaceholder2.png"
+              src="Images/catcar.png"
               className="img-fluid"
               //   rounded-start
-              alt="Picture of the article called 'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
+              alt="Picture for the article 'Car insurance? Home insurance? Why not both?'"
             />
             {/* <a href="#" className="stretched-link"></a> */}
             {/* position-relative */}
@@ -21,61 +21,57 @@ function BuyersExample() {
           <div className="col-md-8">
             <div className="card-body">
               <h5 className="card-title">
-                The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment{" "}
+                &nbsp; Car insurance? Home insurance? Why not both?
               </h5>
               <div className="card-text">
                 <p className="card-text">
-                  &nbsp; As the real estate market continues to flourish,
-                  investors are constantly on the lookout for the next big
-                  neighborhood. With the help of industry experts and data
-                  analysis, we have compiled a list of the top 5 up-and-coming
-                  neighborhoods for real estate investment. &nbsp; 1. East
-                  Austin, Texas Once a working-class neighborhood, East Austin
-                  has undergone significant gentrification in recent years,
-                  making it an attractive location for young professionals and
-                  families. The area boasts a vibrant arts scene, trendy
-                  restaurants, and a strong sense of community. Real estate
-                  prices are still relatively affordable compared to other parts
-                  of Austin, but they're quickly rising, making now the perfect
-                  time to invest.
+                  &nbsp; As a homeowner, you understand the importance of
+                  protecting your property from unforeseen circumstances. In
+                  addition to safeguarding your home, it's equally important to
+                  protect your vehicles with car insurance. However, many people
+                  wonder if bundling car insurance with their home insurance is
+                  the right move.
                   <br></br>
-                  &nbsp; 2. West Adams, Los Angeles West Adams has long been a
-                  hidden gem in Los Angeles, but it's quickly gaining popularity
-                  among investors and homebuyers. The neighborhood's stunning
-                  historic homes and tree-lined streets are a major draw, and
-                  it's becoming known for its burgeoning food and art scenes.
-                  With new development projects in the works, real estate values
-                  are expected to skyrocket in the coming years.
+                  &nbsp; Bundling home and car insurance has become increasingly
+                  popular, and for a good reason. Bundling policies not only
+                  simplifies insurance management, but it also offers
+                  significant discounts. However, the question remains: what's
+                  the right way to bundle car and home insurance?
                   <br></br>
-                  &nbsp; 3. West Loop, Chicago Once an industrial area, the West
-                  Loop has transformed into a chic neighborhood filled with
-                  luxury condos, trendy restaurants, and high-end boutiques. Its
-                  proximity to downtown Chicago makes it an attractive location
-                  for young professionals, and with new development projects in
-                  the works, there's plenty of potential for growth.
+                  &nbsp; Firstly, it's essential to understand that bundling
+                  insurance policies is not a one-size-fits-all solution. While
+                  bundling may be beneficial for some, others may not see the
+                  same value. It's crucial to weigh the pros and cons of
+                  bundling before making a decision.
                   <br></br>
-                  &nbsp; 4. Brewerytown, Philadelphia Brewerytown, once home to
-                  several large breweries, is experiencing a revival. The
-                  neighborhood has seen significant investment in recent years,
-                  including new housing developments and a thriving arts scene.
-                  Its proximity to Center City Philadelphia and the Schuylkill
-                  River Trail make it an attractive location for both residents
-                  and visitors.
+                  &nbsp; One of the significant benefits of bundling car and
+                  home insurance is the potential for a discount. Many insurance
+                  providers offer a multi-policy discount that can help
+                  homeowners save money. Additionally, bundling can simplify the
+                  insurance process, as you only have one insurer to deal with
+                  for both policies. However, bundling may not always be the
+                  best option. Suppose you have a high-value home or expensive
+                  vehicles. In that case, it may be more cost-effective to
+                  purchase separate policies.
                   <br></br>
-                  &nbsp; 5. Capitol Hill, Seattle Capitol Hill has long been one
-                  of Seattle's most desirable neighborhoods, but it's recently
-                  seen a surge in popularity. Its walkable streets, eclectic mix
-                  of shops and restaurants, and proximity to downtown Seattle
-                  make it an attractive location for young professionals. With
-                  new development projects in the works, real estate values are
-                  expected to continue to rise.
+                  &nbsp; Additionally, bundling can limit your options, as not
+                  all insurers offer multi-policy discounts. When it comes to
+                  bundling car and home insurance, the right way depends on your
+                  individual needs. Suppose you have a low-risk home and
+                  vehicles, and you're looking to simplify your insurance
+                  management while saving money. In that case, bundling could be
+                  a great option for you.
                   <br></br>
-                  &nbsp; Investing in real estate can be a lucrative
-                  opportunity, but it's important to do your research and choose
-                  the right location. These up-and-coming neighborhoods offer
-                  plenty of potential for growth and a strong return on
-                  investment, making them smart choices for investors looking to
-                  make a sound investment in the future of real estate.
+                  &nbsp; However, suppose you have high-value assets or specific
+                  insurance needs. In that case, separate policies may be a
+                  better choice. In conclusion, bundling car and home insurance
+                  can be an excellent way to simplify insurance management and
+                  save money.
+                  <br></br>
+                  &nbsp; It's crucial to consider your individual needs and
+                  circumstances before making a decision. Always shop around and
+                  compare insurance policies to ensure you're getting the best
+                  coverage and value for your money.{" "}
                 </p>
               </div>
               <p className="card-text">

@@ -148,7 +148,7 @@ function DesktopNav() {
           <ul className="dropdown-menu">
             <Link to="./buyers/buyersexample">
               <li className="dropdown-item" type="button">
-                Article for buyers
+              Car insurance? Home insurance? Why not both?
               </li>
             </Link>
             <Link to="./buyers/buyersexample2">
@@ -198,7 +198,7 @@ function DesktopNav() {
           <ul className="dropdown-menu">
             <Link to="./sellers/sellersexample">
               <li className="dropdown-item" type="button">
-                Article for buyers 1
+              What time is the right time to sell?
               </li>
             </Link>
 
