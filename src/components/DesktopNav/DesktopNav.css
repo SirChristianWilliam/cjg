@@ -1,9 +1,16 @@
 .desktopOnOrOff a {
-  color: whitesmoke;
+  /* color: whitesmoke; */
   padding: 10px 30px;
   font-size: larger;
+  color:var(--action-color);
+  /* color:var(--action-color); */
+  /* background-color: var(--secondary-color) ; */
+  background-color: var(--primary-color) ;
+
   /* outline: 1px solid rgb(27, 182, 163); */
-  border: 1px solid rgb(27, 182, 163);
+  /* border: 1px solid rgb(27, 182, 163); */
+  border: 1px solid var(--action-color);
+
   border-radius: 10px;
   outline: none;
   margin: 5px;
@@ -11,17 +18,18 @@
   align-items: center;
 }
 .desktopOnOrOff .dropdown-menu a {
-  color: black;
   border: 0px solid green !important;
   margin: 0;
   text-decoration: none;
   outline: none;
+  background:var(--primary-color);
 }
 .desktopOnOrOff .dropdown-menu a:not(:first-of-type a) {
   /* padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x); */
 }
 .desktopOnOrOff .dropdown-menu a:hover {
   color: rgb(27, 182, 163);
+  
 }
 .dropdown-menu[data-bs-popper] {
   margin-top: 0;
@@ -35,8 +43,10 @@
 .dropdown .btn {
   border-radius: none !important;
 }
+/* .dropdown-item targets the nav bar links that drop down */
 .dropdown-item {
-  /* padding: 0px; */
+  color: var(--primary-color);
+
 }
 .dropdown-item:hover {
   color: rgb(27, 182, 163);
@@ -44,9 +54,12 @@
   font-weight: initial !important;
 }
 .nav {
-  --bs-nav-link-hover-color: #a3dc95;
+  --bs-nav-link-hover-color: green;
   display: flex;
   flex-wrap: nowrap;
+}
+.nav-link:hover {
+  background-color: whitesmoke !important;
 }
 .navbar a:hover:not(.dropdown-menu, .container a) {
   color: #a3dc95;
@@ -55,6 +68,7 @@
 }
 .navbar a:active {
   background-color: white;
+  
 }
 
 @media only screen and (max-width: 1200px) {
@@ -108,7 +122,8 @@
 }
 
 .dropdown .btn {
-  background-color: #b41414;
+  background-color: var(--primary-color);
+
 }
 
 .lessen {

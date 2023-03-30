@@ -3,7 +3,9 @@
   align-items: center;
 }
 .bannerHardlyKnower {
-  background-color: #ecf4fc !important;
+  /* background-color: #ecf4fc !important; */
+  background-color: var(--primary-color) !important;
+
 }
 
 .bg-body-tertiary {

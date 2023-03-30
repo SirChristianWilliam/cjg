@@ -1,6 +1,17 @@
 * {
   font-family: "Montserrat", sans-serif;
+  
+  --primary-color: rgb(219, 210, 188);
+  /* Primary color is the background, which should technically be the majority */
+  --secondary-color: #1b160a;
+  /* Secondary is the "main" color aside from white. I think blackish would be good */
+  --tertiary-color: rgb(26, 130, 21);
+  /* This is the 3rd color, it will just accent the other 2 mains and bring them together */
+  --action-color: rgb(108, 34, 34);
+  /* Everything that can be clicked on will be this color*/
+  
 }
+
 body {
   background-image: url(/public/Images/choice2.jpg);
   background-position: center;
@@ -13,7 +24,9 @@ body {
 }
 
 .primaryBackgroundColor {
-  background-color: #b41414;
+  /* background-color: var(--primary-color); */
+  background-color: tan;
+
   padding: 0;
   margin: 0;
 }
@@ -21,7 +34,7 @@ body {
   /* position: absolute; */
   margin-left: 15px;
   /* right: 25px !important; */
-  background-color: whitesmoke;
+  background-color: var(--action-color);
 }
 .navbar-toggler:focus {
   box-shadow: 0px 0px 10px rgb(27, 182, 163);
