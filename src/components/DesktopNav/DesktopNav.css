@@ -62,9 +62,11 @@
   background-color: whitesmoke !important;
 }
 .navbar a:hover:not(.dropdown-menu, .container a) {
-  color: #a3dc95;
+  color: var(--action-color);
   border: 1px solid #a3dc95;
   box-shadow: 0px 0px 3px white;
+  text-shadow:0px 0px 1px black;
+
 }
 .navbar a:active {
   background-color: white;
