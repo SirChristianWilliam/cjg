@@ -22,13 +22,15 @@
   margin: 0;
   text-decoration: none;
   outline: none;
-  background:var(--primary-color);
+  background:none;
+  /* Change this back if I want BG color for tabs */
 }
 .desktopOnOrOff .dropdown-menu a:not(:first-of-type a) {
   /* padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x); */
 }
 .desktopOnOrOff .dropdown-menu a:hover {
-  color: rgb(27, 182, 163);
+  color: rgb(27, 182, 163); 
+  /* I don't think I need this anymore, it affects the Listings hover tab */
   
 }
 .dropdown-menu[data-bs-popper] {
@@ -41,6 +43,7 @@
   color: black !important;
 }
 .dropdown .btn {
+  background-color: var(--primary-color);
   border-radius: none !important;
 }
 /* .dropdown-item targets the nav bar links that drop down */
@@ -121,11 +124,6 @@
 
 .dropdown-toggle::after {
   content: unset;
-}
-
-.dropdown .btn {
-  background-color: var(--primary-color);
-
 }
 
 .lessen {
