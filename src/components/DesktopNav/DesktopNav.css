@@ -95,22 +95,58 @@
     font-size: 100%;
   }
 }
+@media only screen and (max-width: 1130px) {
+ .desktopOnOrOff a {
+   padding: 12px 20px;
+
+ }
+}
 @media only screen and (max-width: 1000px) {
   .desktopOnOrOff a {
     font-size: 90%;
+    padding: 11px 15px;
+
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 940px) {
   .desktopOnOrOff a {
-    padding: 12px 20px;
+    padding: 11px 14px;
   }
 }
+@media only screen and (max-width: 915px) {
+  .desktopOnOrOff a {
+    padding: 10px 11px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .desktopOnOrOff a {
+    padding: 10px 8px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .desktopOnOrOff a {
+    padding: 10px 6px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .desktopOnOrOff a {
-    font-size: 75%;
+    font-size: 80%;
+    padding: 10px 5px;
+
   }
 }
+
+@media only screen and (max-width: 765px) {
+  .desktopOnOrOff a {
+    font-size: 80%;
+    padding: 10px 4px;
+
+  }
+}
+
 
 @media only screen and (max-width: 750px) {
   .navbar > .container-fluid {
