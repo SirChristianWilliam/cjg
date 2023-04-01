@@ -1,15 +1,10 @@
 * {
-  font-family: "Montserrat", sans-serif;
-  
-  --primary-color: rgb(219, 210, 188);
-  /* Primary color is the background, which should technically be the majority */
-  --secondary-color: #1b160a;
-  /* Secondary is the "main" color aside from white. I think blackish would be good */
-  --tertiary-color: rgb(26, 130, 21);
-  /* This is the 3rd color, it will just accent the other 2 mains and bring them together */
-  --action-color: rgb(108, 34, 34);
-  /* Everything that can be clicked on will be this color*/
-  
+font-family: "Montserrat", sans-serif;
+--primary-color: #292929;
+--secondary-color: #ffffff;
+--tertiary-color: #39b54a;
+--action-color: #e65f5c;
+--accent-color: #0077be;
 }
 
 body {
@@ -24,8 +19,8 @@ body {
 }
 
 .primaryBackgroundColor {
-  /* background-color: var(--primary-color); */
-  background-color: tan;
+  background-color: var(--primary-color);
+  /* background-color: tan; */
 
   padding: 0;
   margin: 0;
@@ -55,7 +50,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   body {
     background-image: url(/public/Images/mobile1.jpg);
     background-position: center;
@@ -65,30 +60,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .container-fluid {
-    display: block !important;
-    --bs-gutter-x: 0rem;
-  }
-  .theToggler button {
-    width: 100%;
-  }
-
-  .navbar-toggler {
-    margin: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  .container {
-    width: auto;
-  }
-  .edinaLogo {
-    margin-left: 10px;
-  }
-  .emailAndPhoneSizing:first-child {
-    padding-bottom: 0;
-  }
-}
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;

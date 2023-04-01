@@ -1,4 +1,6 @@
 .edinaLogo {
   max-width: 100%;
-  vertical-align: inherit !important;
+  min-width: 183.23px;
+  min-height: 32.82px;
+  /* vertical-align: inherit !important; */
 }
