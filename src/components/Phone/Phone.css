@@ -1,14 +1,14 @@
 .material-symbols-outlined {
-  color: black;
+  color: var(--secondary-color);
   font-size: 30px;
   vertical-align: -2px;
 }
 .phoneLineHeight {
   vertical-align: super;
-  color: black;
+  color: var(--secondary-color);
 }
 .container a {
-  text-decoration-color: black;
+  text-decoration-color: var(--secondary-color);
 }
 
 .shake:hover a span:first-child {

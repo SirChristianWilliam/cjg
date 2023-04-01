@@ -1,10 +1,11 @@
 * {
   font-family: "Montserrat", sans-serif;
-  --primary-color: #292929;
+  /* --primary-color: #292929; */
+  --primary-color: #333333;
   --secondary-color: #ffffff;
   /* --tertiary-color: #39b54a; */
-  --tertiary-color:   rgb(7, 111, 63);
-  --action-color: #e65f5c;
+  --tertiary-color: rgb(7, 111, 63);
+  --action-color: #CE1025;
   --accent-color: #0077be;
 }
 
@@ -16,21 +17,17 @@ body {
   background-size: cover;
 }
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='green' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .primaryBackgroundColor {
-  background-color: var(--primary-color);
-  /* background-color: tan; */
-
+  background-color: var(--secondary-color);
   padding: 0;
   margin: 0;
 }
 .navbar-toggler {
-  /* position: absolute; */
   margin-left: 15px;
-  /* right: 25px !important; */
-  background-color: var(--action-color);
+  background-color: var(--primary-color);
 }
 .navbar-toggler:focus {
   box-shadow: 0px 0px 10px rgb(27, 182, 163);
