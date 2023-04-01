@@ -4,7 +4,7 @@
   /* padding: 15px 0px; */
 }
 .bannerHardlyKnower {
-  background-color: rgb(7, 111, 63) !important;
+  background-color: var(--tertiary-color) !important;
   /* background-color: var(--tertiary-color) !important; */
 }
 
