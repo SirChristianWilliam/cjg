@@ -43,14 +43,14 @@ Confer with the client:
     3. ✅ Articles, About, & Home in Mobile Nav pop-up, when clicked on, should 
         close the pop-up.
     4. Desktop Navigation should have finalized hover effects.
-    5. Desktop Navigation media queries readjusted
+    5. ✅ Desktop Navigation media queries readjusted
     6. ✅ Change Banner's phone # from mine to CJs
-    7. Add Bootstrap card to About page/separate testimonials from About paragraph 
-    8. Add Bootstrap article card as a template. 
-    9. Article's page needs added components to be clicked on from that point as well. 
-    10. Buyers/Sellers will have the same Boostrap template card as they are 
+    7. ✅ Add Bootstrap card to About page/separate testimonials from About paragraph 
+    8. ✅ Add Bootstrap article card as a template. 
+    9. ✅ Article's page needs added components to be clicked on from that point as well. 
+    10. ✅ Buyers/Sellers will have the same Boostrap template card as they are 
         also essentially articles, but specific to buyers/sellers.
-    11. Decide whether articles will include Buyers and Sellers articles, or 
+    11. ✅ Decide whether articles will include Buyers and Sellers articles, or 
         whether it will just contain a list of unrelated/non-specific articles. 
     12. Add ALT text to images. 
     13. Ask chatGPT if my HTML is semantically correct for SEO. Look how to 
@@ -58,3 +58,29 @@ Confer with the client:
     14. I probably need to add a specific "Videos" component. Figure out if  it should 
         be a page with all the videos in Iframes, or if it should be images that when 
         clicked, take the user to Youtube. Either way, they'll be posted on Youtube. 
+
+    More Notes:
+
+    1. Finish deciding which colors will go where. 
+    2. I added variable for the main color scheme- replace regular colors throughout
+        CSS files with the variables (--primary-color, --action-color, etc)
+    3. About page needs styling badly 
+    4. Home page needs a bit more styling than the one sentence there now, 
+        look here: ( https://www.pinterest.com/tm_landing_page/portfolio-landing-page/ )
+    5. Buyers & Sellers components need padding or margin space so they don't sit 
+        on the bottom border of the Header 
+    6. Edina Realty logo needs to have color changed, and double check the left padding/margin 
+        to make sure the space is even on all surrounding sides
+    7. Client gave me 3 articles for sellers, add those in. 
+    8. Double check her phone # is correct
+    9. Social media icons/links in top left and possibly bottom left of page. Related, 
+        make sure footer is always on the bottom (it's floating middle on pages with content)
+    10. Right now, hamburger is used in a small desktop viewport, which is fine, but 
+        I need to decide whether the hover effects and such that aren't correct for 
+        mobile viewport work for whichever is shown. Mobile drawer in general needs 
+        to have appropriate color scheme and mobile specific needs no hover effects.
+    11. Both Mobile nav & Desktop Nav need prevention for article overflow. Either 
+        use ellipsis method with overflow hidden, or overflow scroll. Ellipsis probably 
+        would be best.
+    12. Back to articles button needs to be on all expanded articles, and they need 
+        to actually work lol.
