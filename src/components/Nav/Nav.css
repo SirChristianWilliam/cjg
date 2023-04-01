@@ -2,12 +2,10 @@
   display: flex;
   align-items: center;
   /* padding: 15px 0px; */
-
 }
 .bannerHardlyKnower {
   background-color: rgb(7, 111, 63) !important;
   /* background-color: var(--tertiary-color) !important; */
-
 }
 
 .bg-body-tertiary {
@@ -35,5 +33,3 @@
     padding-right: 0px;
     margin-right: 0px;
 } */
-
-

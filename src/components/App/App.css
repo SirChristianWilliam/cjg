@@ -1,10 +1,10 @@
 * {
-font-family: "Montserrat", sans-serif;
---primary-color: #292929;
---secondary-color: #ffffff;
---tertiary-color: #39b54a;
---action-color: #e65f5c;
---accent-color: #0077be;
+  font-family: "Montserrat", sans-serif;
+  --primary-color: #292929;
+  --secondary-color: #ffffff;
+  --tertiary-color: #39b54a;
+  --action-color: #e65f5c;
+  --accent-color: #0077be;
 }
 
 body {
@@ -59,7 +59,6 @@ body {
     background-size: cover;
   }
 }
-
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
