@@ -3,27 +3,19 @@ import React from "react";
 function BuyersExample() {
   return (
     <>
-      <div
-        className="card mb-3 d-flex buyerssellersmargintop"
-        style={{ maxWidth: "75%", margin: "auto" }}
-      >
-        <div className="row g-0 ">
-          <div className="col-md-4">
-            <img
-              src="Images/catcar.png"
-              className="img-fluid"
-              //   rounded-start
-              alt="'Cute 3d animated cat riding in a small car, cheerful colors.'"
-            />
-            {/* <a href="#" className="stretched-link"></a> */}
-            {/* position-relative */}
-          </div>
-          <div className="col-md-8">
-            <div className="card-body">
-              <h5 className="card-title">
+     <div className="card mb-3 d-flex flex-column align-items-center buyerssellersmargintop" style={{ maxWidth: "75%", margin: "auto", overflow:"hidden"}}>
+        <img
+          src="Images/catcar.png"
+          className="img-fluid"
+          style={{ maxWidth: "100%", maxHeight: "50vh", zIndex:"1"  }}
+          alt="'Cute 3d animated cat riding in a small car, cheerful colors.'"
+        />
+        
+        <div className="card-body w-100" style={{boxShadow:"0px  -400px 21px black"}} >
+              <h5 className="card-title" >
                 Car insurance? Home insurance? Why not both?
               </h5>
-              <div className="card-text">
+              <div className="card-text" >
                 <p className="card-text">
                   <br></br>
                   &nbsp; As a homeowner, you understand the importance of
@@ -82,9 +74,7 @@ function BuyersExample() {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-    </>
+      </>
   );
 }
 
