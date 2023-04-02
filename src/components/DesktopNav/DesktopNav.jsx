@@ -203,18 +203,18 @@ function DesktopNav() {
           <ul className="dropdown-menu">
             <Link to="./sellers/sellersexample" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
-                What time is the right time to sell?
+              Why it's so important to choose a local agent when selling your property
               </li>
             </Link>
 
             <Link to="./sellers/sellersexample2" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
-                Look out for these common scams when selling your home.
+              What is my property worth?
               </li>
             </Link>
             <Link to="./sellers/sellersexample3" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
-                Article for Sellers 3
+              Pre-Listing Improvements/Upgrades That Are Worth The Investment
               </li>
             </Link>
             <Link to="./sellers/sellersexample4" onClick={handlingClick}>

@@ -7,64 +7,46 @@ function SellersExample3() {
         <img
           src="Images/articlePlaceholder2.png"
           className="img-fluid buyerssellersimages"
-          alt="'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
+          alt="'Pre-Listing Improvements/Upgrades That Are Worth The Investment'"
         />
         <div className="card-body w-100 buyerssellersarticletextcontainer">
           <h5 className="card-title">
-            The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment{" "}
+            Pre-Listing Improvements/Upgrades That Are Worth The Investment{" "}
           </h5>
           <div className="card-text">
             <p className="card-text">
-              &nbsp; As the real estate market continues to flourish, investors
-              are constantly on the lookout for the next big neighborhood. With
-              the help of industry experts and data analysis, we have compiled a
-              list of the top 5 up-and-coming neighborhoods for real estate
-              investment. &nbsp; 1. East Austin, Texas Once a working-class
-              neighborhood, East Austin has undergone significant gentrification
-              in recent years, making it an attractive location for young
-              professionals and families. The area boasts a vibrant arts scene,
-              trendy restaurants, and a strong sense of community. Real estate
-              prices are still relatively affordable compared to other parts of
-              Austin, but they're quickly rising, making now the perfect time to
-              invest.
               <br></br>
-              &nbsp; 2. West Adams, Los Angeles West Adams has long been a
-              hidden gem in Los Angeles, but it's quickly gaining popularity
-              among investors and homebuyers. The neighborhood's stunning
-              historic homes and tree-lined streets are a major draw, and it's
-              becoming known for its burgeoning food and art scenes. With new
-              development projects in the works, real estate values are expected
-              to skyrocket in the coming years.
-              <br></br>
-              &nbsp; 3. West Loop, Chicago Once an industrial area, the West
-              Loop has transformed into a chic neighborhood filled with luxury
-              condos, trendy restaurants, and high-end boutiques. Its proximity
-              to downtown Chicago makes it an attractive location for young
-              professionals, and with new development projects in the works,
-              there's plenty of potential for growth.
-              <br></br>
-              &nbsp; 4. Brewerytown, Philadelphia Brewerytown, once home to
-              several large breweries, is experiencing a revival. The
-              neighborhood has seen significant investment in recent years,
-              including new housing developments and a thriving arts scene. Its
-              proximity to Center City Philadelphia and the Schuylkill River
-              Trail make it an attractive location for both residents and
-              visitors.
-              <br></br>
-              &nbsp; 5. Capitol Hill, Seattle Capitol Hill has long been one of
-              Seattle's most desirable neighborhoods, but it's recently seen a
-              surge in popularity. Its walkable streets, eclectic mix of shops
-              and restaurants, and proximity to downtown Seattle make it an
-              attractive location for young professionals. With new development
-              projects in the works, real estate values are expected to continue
-              to rise.
-              <br></br>
-              &nbsp; Investing in real estate can be a lucrative opportunity,
-              but it's important to do your research and choose the right
-              location. These up-and-coming neighborhoods offer plenty of
-              potential for growth and a strong return on investment, making
-              them smart choices for investors looking to make a sound
-              investment in the future of real estate.
+              Many sellers get overwhelmed trying to decide which pre-listing
+              improvements to make, if any. Obviously, if you have a leaking
+              roof or broken windows, those things need to be taken care of
+              before putting your home on the market. But there are a few
+              lower-cost upgrades that are relatively easy to do and will get
+              you the most bang for your buck.<br></br>
+              <br></br> CURB APPEAL <br></br>Yes, first impressions matter. Many
+              times it’s the listing photo of the front of your home that
+              determines if buyers will take a closer look. Or maybe they do a
+              drive-by to see it in person before scheduling a showing. A little
+              sprucing up outside goes a long way. <br></br>
+              <br></br>- Repair/replace damaged siding <br></br> - Touch up
+              paint, especially trim <br></br>- Replace rusty or damaged mailbox
+              <br></br> - New garage door(s) – one of the highest
+              return-on-investment items <br></br> - Add window boxes, potted
+              plants or a chair to create a welcome <br></br>
+              <br></br>KITCHENS &amp; BATHROOMS<br></br>
+              Clean, modern bathrooms and kitchens consistently top the wish
+              list for homebuyers, but this doesn’t mean you need to do a
+              complete remodel: <br></br>
+              <br></br> - Fresh paint <br></br> - Resurface cabinets &amp;
+              update hardware <br></br> - Re-caulk sinks <br></br> - Add/update
+              lighting <br></br>
+              <br></br>GENERAL <br></br>It can be difficult to see your home
+              with an impartial eye. After living in your space for years, you
+              become accustomed to it’s flaws. That’s why it’s always good to
+              have an impartial person, like a real estate agent, do a walk
+              through and make a list of things that stand out. Typically I hear
+              buyers take note of the following items: <br></br>
+              <br></br> - Stained ceilings <br></br> - Missing tiles <br></br> -
+              Weathered/rotting decks <br></br> - Pet smells – top complaint{" "}
             </p>
           </div>
           <p className="card-text">

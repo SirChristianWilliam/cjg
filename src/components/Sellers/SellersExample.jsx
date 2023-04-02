@@ -11,63 +11,56 @@ function SellersExample() {
         />
 
         <div className="card-body w-100 buyerssellersarticletextcontainer">
-          <h5 className="card-title">What time is the right time to sell?</h5>
+          <h5 className="card-title">
+            WHY IT’S SO IMPORTANT TO CHOOSE A LOCAL AGENT WHEN SELLING YOUR
+            PROPERTY
+          </h5>
           <div className="card-text">
             <p className="card-text">
-              <br></br>
-              &nbsp; Selling a property is a significant decision that requires
-              careful consideration. One of the essential factors to keep in
-              mind is timing. Knowing when the right time to sell is can make a
-              significant difference in the sale price and how long it takes to
-              sell.
-              <br></br>
-              &nbsp; The ideal time to sell your property depends on various
-              factors such as market conditions, interest rates, seasonality,
-              and personal circumstances. Here are some key considerations to
-              keep in mind when determining the right time to sell.
+              &nbsp; One of the best decisions you can make when listing your
+              home is to choose an agent local to your area. Here’s why:{" "}
               <br></br>
               <br></br>
-              &nbsp; 1. Market Conditions The real estate market is constantly
-              fluctuating, and market conditions can significantly impact the
-              sale price and how long it takes to sell. Understanding current
-              market trends, including supply and demand, can help you determine
-              whether it's a good time to sell. In a seller's market, where
-              demand is high and inventory is low, you may be able to sell your
-              property quickly and at a higher price. However, in a buyer's
-              market, where there's more inventory than demand, you may need to
-              lower your asking price or wait longer to find a buyer.
+
+
+                - GET A BETTER SALES PRICE <br></br>Working with a skilled real estate
+              agent with expertise in your area can help you sell your home more
+              smoothly, more quickly, and often, for more money. Research from
+              the National Association of Realtors shows that in 2021, homes
+              listed without the assistance of a Realtor sold for a median price
+              of $260,000, while those sold with an agent’s assistance sold for
+              a significantly higher median of $318,000. <br></br>
+              &nbsp; <br></br>  - LOCAL EXPERTISE <br></br>Local agents are the experts on our market.
+              It&#39;s our main focus. Each day we study the listings,
+              transactions and statistics happening in OUR community and we’ve
+              developed a solid knowledge base as well as gut instincts about
+              real estate in our area. Often, getting the best possible outcome
+              on a sale starts with listing at the right price and time, and
+              nobody is in a better place to help you with that than someone who
+              works in our local market day in and day out. Plus, we’re familiar
+              with local ordinances and resources should you need an inspector,
+              a painter, an exterminator, a plumber, a mover or any of the other
+              professionals that might be needed to ensure a successful sale.{" "}
               <br></br>
-              &nbsp; 2. Interest Rates Another factor that can impact the timing
-              of your sale is interest rates. When interest rates are low, it's
-              generally a good time to sell as buyers can take advantage of
-              lower mortgage rates, making homeownership more affordable. When
-              interest rates are high, it can make it more challenging for
-              buyers to afford a mortgage, potentially slowing down the sale
-              process.
-              <br></br>
-              &nbsp; 3. Seasonality The season can also impact the timing of
-              your sale. In general, spring and summer are the busiest seasons
-              for real estate, as many buyers prefer to move during the warmer
-              months. However, depending on your location and property type,
-              other seasons may be better suited to sell. For example, if you're
-              selling a ski-in/ski-out property, winter may be the best time to
-              sell.
-              <br></br>
-              &nbsp; 4. Personal Circumstances
-              <br></br>
-              &nbsp; Lastly, personal circumstances can also influence the
-              timing of your sale. If you're relocating for work or need to
-              downsize, the timing of your sale may be dictated by these
-              factors. It's essential to consider your personal circumstances
-              when determining when to sell.
-              <br></br>
-              <br></br>
-              &nbsp; In conclusion, determining the right time to sell is a
-              crucial factor in the sale price and how long it takes to sell.
-              Consider market conditions, interest rates, seasonality, and your
-              personal circumstances to determine when the best time to sell is.
-              With careful consideration and planning, you can maximize your
-              sale price and ensure a smooth and successful sale.
+              &nbsp; <br></br>  - ENTHUSIASM FOR LOCAL COMMUNITY <br></br>Someone who has lived in
+              their community for some time likely has a fondness for it. They
+              can give firsthand brags about the schools, library, restaurants,
+              parks, events etc. and be a sincere, enthusiastic salesperson for
+              the area AND your property. <br></br>
+              &nbsp; <br></br>  - ACCOUNTABILITY<br></br> You&#39;re more likely to get comprehensive,
+              honest, over-and-above service from someone you could run into at
+              church, kids events and businesses as you go about your daily
+              life. Living in a community tends to hold people accountable,
+              because as we all know, word gets around. Plus, it stands to
+              reason that someone from your area would care more about you than
+              a stranger from out of town. <br></br>
+              &nbsp; <br></br>  - YOU’RE OUR WHY Last but not least, your local real estate
+              agents WANT to work with you. Most of us got into this line of
+              work to help our friends, family and neighbors with one of the
+              most significant happenings in their lives. We don&#39;t complain
+              about having to drive out to &quot;the sticks&quot; or make off
+              comments about rural quirks. You are our peeps! We feel honored
+              and privileged to help you.
             </p>
           </div>
           <p className="card-text">

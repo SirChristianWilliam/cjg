@@ -73,7 +73,7 @@ Confer with the client:
         to make sure the space is even on all surrounding sides
     7. Client gave me 3 articles for sellers, add those in. 
     8. Double check her phone # is correct
-    9. Social media icons/links in top left and possibly bottom left of page. Related, 
+    9. Social media icons/links in top right and possibly bottom left of page. Related, 
         make sure footer is always on the bottom (it's floating middle on pages with content)
     10. Right now, hamburger is used in a small desktop viewport, which is fine, but 
         I need to decide whether the hover effects and such that aren't correct for 

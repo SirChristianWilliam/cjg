@@ -221,10 +221,10 @@ function MobileNav() {
                   What time is the right time to sell?
                   </Link>
                   <Link to="/sellers/sellersexample2" className="dropdown-item">
-                  Look out for these common scams when selling your home.
+                  What is my property worth?
                   </Link>
                   <Link to="/sellers/sellersexample3" className="dropdown-item">
-                    Sellers3
+                  Pre-Listing Improvements/Upgrades That Are Worth The Investment
                   </Link>
                   <Link to="/sellers/sellersexample4" className="dropdown-item">
                     Sellers4
