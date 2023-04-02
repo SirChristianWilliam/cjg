@@ -4,7 +4,7 @@ function BuyersExample5() {
   return (
     <>
       <div
-        className="card mb-3 d-flex"
+        className="card mb-3 d-flex buyerssellersmargintop"
         style={{ maxWidth: "75%", margin: "auto" }}
       >
         <div className="row g-0 ">
