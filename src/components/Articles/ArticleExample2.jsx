@@ -6,31 +6,29 @@ function ArticleExample2() {
   const isArticlesPath = location.pathname === "/articles";
   return (
     <>
-    <div className="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
+      <div className="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
         <div className="row no-gutters">
           <div className="col-md-4">
-          {isArticlesPath && (
-            <img
-              src="Images/articlePlaceholder.png"
-              className="card-img"
-              style={{ height: "100%", objectFit: "cover" }}
-              alt="'How to Prepare Your Home for a Successful Sale'"
-            />
-          )}
-           {!isArticlesPath && (
-            <img
-              src="Images/articlePlaceholder2.png"
-              className="card-img"
-              style={{ display:"flex", width:"100%"}}
-              alt="'How to Prepare Your Home for a Successful Sale'"
-            />
-            
-          )}
-          <hr></hr>
+            {isArticlesPath && (
+              <img
+                src="Images/articlePlaceholder.png"
+                className="card-img"
+                style={{ height: "100%", objectFit: "cover" }}
+                alt="'How to Prepare Your Home for a Successful Sale'"
+              />
+            )}
+            {!isArticlesPath && (
+              <img
+                src="Images/articlePlaceholder2.png"
+                className="card-img"
+                style={{ display: "flex", width: "100%" }}
+                alt="'How to Prepare Your Home for a Successful Sale'"
+              />
+            )}
+            <hr></hr>
           </div>
           <div className="col-md-8">
             <div className="card-body">
-     
               <h5 className="card-title">
                 How to Prepare Your Home for a Successful Sale
               </h5>

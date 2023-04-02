@@ -7,27 +7,26 @@ function ArticleExample3() {
 
   return (
     <>
-     <div className="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
+      <div className="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
         <div className="row no-gutters">
           <div className="col-md-4">
-          {isArticlesPath && (
-            <img
-              src="Images/articlePlaceholder2.png"
-              className="card-img"
-              style={{ height: "100%", objectFit: "cover" }}
-              alt="'Advice from a pirate'"
-            />
-          )}
-           {!isArticlesPath && (
-            <img
-              src="Images/articlePlaceholder2.png"
-              className="card-img"
-              style={{ display:"flex", width:"100%"}}
-              alt="'Advice from a pirate'"
-            />
-            
-          )}
-          <hr></hr>
+            {isArticlesPath && (
+              <img
+                src="Images/articlePlaceholder2.png"
+                className="card-img"
+                style={{ height: "100%", objectFit: "cover" }}
+                alt="'Advice from a pirate'"
+              />
+            )}
+            {!isArticlesPath && (
+              <img
+                src="Images/articlePlaceholder2.png"
+                className="card-img"
+                style={{ display: "flex", width: "100%" }}
+                alt="'Advice from a pirate'"
+              />
+            )}
+            <hr></hr>
           </div>
           <div className="col-md-8">
             <div className="card-body">

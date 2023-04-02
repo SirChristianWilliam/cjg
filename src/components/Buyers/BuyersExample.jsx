@@ -10,9 +10,7 @@ function BuyersExample() {
           alt="'Cute 3d animated cat riding in a small car, cheerful colors.'"
         />
 
-        <div
-          className="card-body w-100 buyerssellersarticletextcontainer"
-        >
+        <div className="card-body w-100 buyerssellersarticletextcontainer">
           <h5 className="card-title">
             Car insurance? Home insurance? Why not both?
           </h5>

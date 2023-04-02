@@ -160,6 +160,8 @@
   .mobileOnOrOff {
     display: "";
   }
+ 
+  
 }
 
 @media only screen and (max-width: 630px) {
@@ -191,10 +193,25 @@
     width: auto;
   }
   .edinaLogo {
-    margin-left: 10px;
+    min-width: 119.2px; 
+    min-height: 32.81px;
   }
-  .emailAndPhoneSizing:first-child {
-    padding-bottom: 0;
+  .emailAndPhoneSizing {
+    padding-bottom: 10px;
+    vertical-align:top;
+  }
+  .proPicQualities {
+        margin-right: 0;
+  }
+  .material-symbols-outlined {
+    vertical-align: 2px;
+
+  }
+  .container-fluid {
+    --bs-gutter-x: 1.0rem;
+  }
+  .phoneLineHeight {
+    font-size: smaller;
   }
 }
 

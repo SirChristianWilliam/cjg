@@ -1,6 +1,6 @@
 .FB {
     position: fixed;
-    right:25px;
-    top:1em;     
+    right:15px;
+    top:.5em;     
     color:var(--secondary-color); 
 }
