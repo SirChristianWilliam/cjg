@@ -1,7 +1,9 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import ScrollToTop from "../ScrollFunction/ScrollFunction";
 
 function ArticleExample() {
+  const handleClick = ScrollToTop();
   const location = useLocation();
   const isArticlesPath = location.pathname === "/articles";
 
@@ -30,7 +32,9 @@ function ArticleExample() {
                   neighborhood. With the help of industry experts and data
                   analysis, we have compiled a list of the top 5 up-and-coming
                   neighborhoods for real estate investment....
-                  <Link to="./articleexample">Read more...</Link>
+                  <Link to="./articleexample" onClick={handleClick}>
+                    Read more...
+                  </Link>
                 </div>
                 <p className="card-text">
                   <small className="text-body-secondary">

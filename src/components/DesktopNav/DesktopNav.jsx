@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import ScrollUp from "../ScrollUp/ScrollUp";
+
 import "./DesktopNav.css";
+
 function DesktopNav() {
+  const handlingClick = ScrollUp();
+
   return (
     <>
       <ul className="nav justify-content-end desktopOnOrOff">
@@ -146,27 +151,27 @@ function DesktopNav() {
             </svg>
           </a>
           <ul className="dropdown-menu">
-            <Link to="./buyers/buyersexample">
+            <Link to="./buyers/buyersexample" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
-              Car insurance? Home insurance? Why not both?
+                Car insurance? Home insurance? Why not both?
               </li>
             </Link>
-            <Link to="./buyers/buyersexample2">
+            <Link to="./buyers/buyersexample2" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
-              Buying a home? Find your inner peace.
+                Buying a home? Find your inner peace.
               </li>
             </Link>
-            <Link to="./buyers/buyersexample3">
+            <Link to="./buyers/buyersexample3" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
-              Don't Get Burned: The Benefits of Fire Insurance in Real Estate     
+                Don't Get Burned: The Benefits of Fire Insurance in Real Estate
               </li>
             </Link>
-            <Link to="./buyers/buyersexample4">
+            <Link to="./buyers/buyersexample4" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
                 Article for buyers
               </li>
             </Link>
-            <Link to="./buyers/buyersexample5">
+            <Link to="./buyers/buyersexample5" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
                 Article for buyers
               </li>
@@ -196,28 +201,28 @@ function DesktopNav() {
             </svg>
           </a>
           <ul className="dropdown-menu">
-            <Link to="./sellers/sellersexample">
+            <Link to="./sellers/sellersexample" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
-              What time is the right time to sell?
+                What time is the right time to sell?
               </li>
             </Link>
 
-            <Link to="./sellers/sellersexample2">
+            <Link to="./sellers/sellersexample2" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
-              Look out for these common scams when selling your home.
+                Look out for these common scams when selling your home.
               </li>
             </Link>
-            <Link to="./sellers/sellersexample3">
+            <Link to="./sellers/sellersexample3" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
                 Article for Sellers 3
               </li>
             </Link>
-            <Link to="./sellers/sellersexample4">
+            <Link to="./sellers/sellersexample4" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
                 Article for Sellers 4
               </li>
             </Link>
-            <Link to="./sellers/sellersexample5">
+            <Link to="./sellers/sellersexample5" onClick={handlingClick}>
               <li className="dropdown-item" type="button">
                 Article for Sellers 5
               </li>
@@ -227,12 +232,12 @@ function DesktopNav() {
         {/*  */}
 
         <li className="nav-item">
-          <Link to="/articles" className="nav-link">
+          <Link to="/articles" className="nav-link" onClick={handlingClick}>
             Articles
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/about" className="nav-link">
+          <Link to="/about" className="nav-link" onClick={handlingClick}>
             About
           </Link>
         </li>

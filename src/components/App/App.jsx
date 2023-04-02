@@ -16,6 +16,14 @@ import Sellers from "../Sellers/Sellers";
 import Nav from "../Nav/Nav";
 
 function App() {
+  const [linkClicked, setLinkClicked] = useState(false);
+
+  useEffect(() => {
+    if (linkClicked) {
+      window.scrollTo(0, 0);
+      setLinkClicked(false);
+    }
+  }, [linkClicked]);
   return (
     <>
       <Router>

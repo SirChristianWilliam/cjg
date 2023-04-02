@@ -38,10 +38,12 @@
   text-decoration: none;
   outline: none;
   background: none;
+  margin-right: 25px;
+
 }
-.desktopOnOrOff .dropdown-menu a:not(:first-of-type a) {
-  /* padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x); */
-}
+/* .desktopOnOrOff .dropdown-menu a:not(:first-of-type a) {
+  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+} */
 .desktopOnOrOff .dropdown-menu a:hover {
   color: rgb(27, 182, 163);
   /* I don't think I need this anymore, it affects the Listings hover tab */
@@ -66,7 +68,9 @@
   background: none;
   font-weight: initial !important;
 }
-
+.lessen {
+  color: var(--primary-color);
+}
 .nav {
   --bs-nav-link-hover-color: #ccd062;
   display: flex;
