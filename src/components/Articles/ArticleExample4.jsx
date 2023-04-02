@@ -7,14 +7,27 @@ function ArticleExample4() {
 
   return (
     <>
-      <div className="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
-        <div className="row g-0">
+     <div className="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
+        <div className="row no-gutters">
           <div className="col-md-4">
+          {isArticlesPath && (
             <img
               src="Images/articlePlaceholder.png"
-              className="img-fluid rounded-start"
-              alt="'How to Find the Right Real Estate Agent' "
+              className="card-img"
+              style={{ height: "100%", objectFit: "cover" }}
+              alt="'How to find the right real estate agent'"
             />
+          )}
+           {!isArticlesPath && (
+            <img
+              src="Images/articlePlaceholder2.png"
+              className="card-img"
+              style={{ display:"flex", width:"100%"}}
+              alt="'How to find the right real estate agent'"
+            />
+            
+          )}
+          <hr></hr>
           </div>
           <div className="col-md-8">
             <div className="card-body">

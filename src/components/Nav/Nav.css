@@ -1,12 +1,25 @@
 .coldAndPro {
   display: flex;
   align-items: center;
-  /* padding: 15px 0px; */
 }
 .bannerHardlyKnower {
-  background-color: var(--primary-color) !important;
-  /* background-color: var(--tertiary-color) !important; */
+  background-image: linear-gradient(
+    rgb(112 139 182),
+    rgb(127, 144, 171)
+  ) !important;
 }
+
+/* @media only screen and (min-width: 767px) {
+  .img-fluid {
+    min-height: 256.58px;
+    min-height: 256.58px;
+    min-width:256.58px;
+  }
+  .card-body {
+    max-height: 256.58px;
+    min-height: 256.58;
+  }
+} */
 
 .bg-body-tertiary {
   --bs-bg-opacity: 0;
@@ -24,12 +37,4 @@
 }
 .desktopOnOrOff {
   width: 100%;
-  /* margin-top:10px;
-  margin-bottom:10px; */
 }
-
-/* .navbar-toggler {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-right: 0px;
-} */

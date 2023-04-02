@@ -7,20 +7,27 @@ function ArticleExample() {
   
   return (
     <>
-      <div
-        className="card mb-3 d-flex"
-        style={{ maxWidth: "75%", margin: "auto" }}
-      >
-        <div className="row g-0 ">
+      <div className="card mb-3" style={{ maxWidth: "75%", margin: "auto" }}>
+        <div className="row no-gutters">
           <div className="col-md-4">
+          {isArticlesPath && (
             <img
               src="Images/articlePlaceholder2.png"
-              className="img-fluid"
-              //   rounded-start
+              className="card-img"
+              style={{ height: "100%", objectFit: "cover" }}
               alt="'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
             />
-            {/* <a href="#" className="stretched-link"></a> */}
-            {/* position-relative */}
+          )}
+           {!isArticlesPath && (
+            <img
+              src="Images/articlePlaceholder2.png"
+              className="card-img"
+              style={{ display:"flex", width:"100%"}}
+              alt="'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
+            />
+            
+          )}
+          <hr></hr>
           </div>
           <div className="col-md-8">
             <div className="card-body">

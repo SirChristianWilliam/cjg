@@ -1,11 +1,9 @@
 * {
   font-family: "Montserrat", sans-serif;
-  /* --primary-color: #292929; */
   --primary-color: #333333;
   --secondary-color: #ffffff;
-  /* --tertiary-color: #39b54a; */
   --tertiary-color: rgb(7, 111, 63);
-  --action-color: #CE1025;
+  --action-color: rgb(112 139 182);
   --accent-color: #0077be;
 }
 
