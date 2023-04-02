@@ -6,17 +6,13 @@ function BuyersExample4() {
       <div className="card mb-3 d-flex flex-column align-items-center buyerssellersarticles ">
         <img
           src="Images/articlePlaceholder2.png"
-          className="img-fluid"
-          style={{ maxWidth: "100%", maxHeight: "60vh", zIndex: "1" }}
+          className="img-fluid buyerssellersimages"
+          
           alt="'The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment'"
         />
 
         <div
-          className="card-body w-100"
-          style={{
-            boxShadow: "0px -600px 1px var(--primary-color)",
-            padding: "50px",
-          }}
+          className="card-body w-100 buyerssellersarticletextcontainer"
         >
           <h5 className="card-title">
             The Top 5 Up-and-Coming Neighborhoods for Real Estate Investment{" "}

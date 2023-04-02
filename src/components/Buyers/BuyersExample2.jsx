@@ -6,17 +6,12 @@ function BuyersExample2() {
       <div className="card mb-3 d-flex flex-column align-items-center buyerssellersarticles ">
         <img
           src="Images/innerpeace.png"
-          className="img-fluid"
-          style={{ maxWidth: "100%", maxHeight: "60vh", zIndex: "1" }}
+          className="img-fluid buyerssellersimages"
           alt="'Human-conscious turtle meditating with its hands together to find inner peace on a rock in a pond.'"
         />
 
         <div
-          className="card-body w-100"
-          style={{
-            boxShadow: "0px -600px 1px var(--primary-color)",
-            padding: "50px",
-          }}
+          className="card-body w-100 buyerssellersarticletextcontainer"
         >
           <h5 className="card-title">Buying a home? Find your inner peace.</h5>
           <div className="card-text">

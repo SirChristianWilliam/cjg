@@ -6,17 +6,12 @@ function BuyersExample() {
       <div className="card mb-3 d-flex flex-column align-items-center buyerssellersarticles ">
         <img
           src="Images/catcar.png"
-          className="img-fluid"
-          style={{ maxWidth: "100%", maxHeight: "60vh", zIndex: "1" }}
+          className="img-fluid buyerssellersimages"
           alt="'Cute 3d animated cat riding in a small car, cheerful colors.'"
         />
 
         <div
-          className="card-body w-100"
-          style={{
-            boxShadow: "0px -600px 1px var(--primary-color)",
-            padding: "50px",
-          }}
+          className="card-body w-100 buyerssellersarticletextcontainer"
         >
           <h5 className="card-title">
             Car insurance? Home insurance? Why not both?
