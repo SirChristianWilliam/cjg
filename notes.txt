@@ -67,9 +67,9 @@ Confer with the client:
     3. About page needs styling badly 
     4. Home page needs a bit more styling than the one sentence there now, 
         look here: ( https://www.pinterest.com/tm_landing_page/portfolio-landing-page/ )
-    5. Buyers & Sellers components need padding or margin space so they don't sit 
+    5. ✅ Buyers & Sellers components need padding or margin space so they don't sit 
         on the bottom border of the Header 
-    6. Edina Realty logo needs to have color changed, and double check the left padding/margin 
+    6. ✅ Edina Realty logo needs to have color changed, and double check the left padding/margin 
         to make sure the space is even on all surrounding sides
     7. Client gave me 3 articles for sellers, add those in. 
     8. Double check her phone # is correct
