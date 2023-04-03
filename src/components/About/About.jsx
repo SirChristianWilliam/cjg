@@ -6,8 +6,8 @@ function About() {
     <>
       <section className="aboutContainer">
         <div className="theImageinAbout">
-        {/* <article>
-          Cat Jackson is a hometown girl with heart. She’s lived in Pine City
+
+        <img src="/Images/kittypaper.png" className="HideForAlt" alt="   Cat Jackson is a hometown girl with heart. She’s lived in Pine City
           for nearly 30 years and has built a strong and diverse network of
           colleagues, customers, and friends. Many know her as CJ from her years
           as a local business owner and writer for the Pine City Pioneer. Now
@@ -22,8 +22,9 @@ function About() {
           Cat's interior design, photography and writing skills help ensure that
           clients' properties are presented to their full potential, and she has
           the tech savvy to effectively utilize a diverse range of marketing
-          platforms to reach potential buyers.
-        </article> */}
+          platforms to reach potential buyers.">
+       
+        </img>
 
         {/* <article>
           - Extremely helpful, friendly, a joy to work with and just an amazing

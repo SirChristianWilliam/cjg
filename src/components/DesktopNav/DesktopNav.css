@@ -74,7 +74,7 @@
   padding: 5px 10px;
 }
 .dropdown-menu:not(.navbar-nav ul) {
-  transform: translate(-80px) ;
+  transform: translate(-80px);
 }
 .dropdown-item:hover {
   color: rgb(27, 182, 163);
@@ -166,7 +166,7 @@
   .navbar > .container-fluid {
     display: inline-flex;
   }
-   
+
   .desktopOnOrOff a {
     font-size: 70%;
   }
@@ -201,7 +201,6 @@
   }
 }
 @media only screen and (max-width: 580px) {
-
   .navbar-toggler {
     padding-left: 25px;
     padding-right: 25px;
@@ -210,7 +209,6 @@
   }
 }
 @media only screen and (max-width: 525px) {
-  
   .navbar-toggler {
     padding-left: 25px;
     padding-right: 25px;

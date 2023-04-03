@@ -79,7 +79,7 @@ Confer with the client:
         I need to decide whether the hover effects and such that aren't correct for 
         mobile viewport work for whichever is shown. Mobile drawer in general needs 
         to have appropriate color scheme and mobile specific needs no hover effects.
-    11. Both Mobile nav & Desktop Nav need prevention for article overflow. Either 
+    11. ✅ Both Mobile nav & Desktop Nav need prevention for article overflow. Either 
         use ellipsis method with overflow hidden, or overflow scroll. Ellipsis probably 
         would be best.
     12. Back to articles button needs to be on all expanded articles, and they need 
