@@ -154,18 +154,19 @@
     font-size: 80%;
     padding: 10px 4px;
   }
+  .navbar-toggler {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    margin-left: 275px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
   .navbar > .container-fluid {
     display: inline-flex;
   }
-  .navbar-toggler {
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-right: 15px;
-    margin-left: 15px;
-  }
+   
   .desktopOnOrOff a {
     font-size: 70%;
   }
@@ -177,13 +178,44 @@
     display: "";
   }
 }
-
+@media only screen and (max-width: 700px) {
+  .navbar-toggler {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    margin-left: 200px;
+  }
+}
 @media only screen and (max-width: 630px) {
   .mobileOnOrOff {
     display: "";
   }
   .desktopOnOrOff {
     display: none;
+  }
+  .navbar-toggler {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    margin-left: 150px;
+  }
+}
+@media only screen and (max-width: 580px) {
+
+  .navbar-toggler {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 525px) {
+  
+  .navbar-toggler {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    margin-left: 50px;
   }
 }
 
