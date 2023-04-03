@@ -5,7 +5,8 @@ function About() {
   return (
     <>
       <section className="aboutContainer">
-        <article>
+        <div className="theImageinAbout">
+        {/* <article>
           Cat Jackson is a hometown girl with heart. She’s lived in Pine City
           for nearly 30 years and has built a strong and diverse network of
           colleagues, customers, and friends. Many know her as CJ from her years
@@ -22,9 +23,9 @@ function About() {
           clients' properties are presented to their full potential, and she has
           the tech savvy to effectively utilize a diverse range of marketing
           platforms to reach potential buyers.
-        </article>
+        </article> */}
 
-        <article>
+        {/* <article>
           - Extremely helpful, friendly, a joy to work with and just an amazing
           person. She's a total ROCKSTAR - Josh S. - Cat Jackson has got to be
           the best real estate agent I have ever met...She went way beyond what
@@ -36,7 +37,8 @@ function About() {
           decisions. She asked the questions I didn't even know to ask. She was
           friendly and laid-back but so on top of everything and always there
           when I needed her. - Jen K
-        </article>
+        </article> */}
+        </div>
       </section>
     </>
   );

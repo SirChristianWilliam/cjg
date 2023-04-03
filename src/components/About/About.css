@@ -1,3 +1,59 @@
 .aboutContainer {
-    padding:20px;
+  border: 1px solid black;
+  /* background-color: var(--primary-color); */
+  width: 100%;
+  height: 2000px;
+  color: black;
+  margin: auto;
+  /* margin-top: 85px; */
+  line-height: 1.6;
+}
+
+.theImageinAbout {
+  background-image: url("/public/Images/kittypaper.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3000px;
+  /* padding:70px; */
+  /* background-position-x: -1500px; */
+  padding-bottom: 2000px;
+}
+
+.aboutContainer article {
+  /* background-color: rgba(255,255,255,.7) !important; */
+}
+
+@media only screen and (max-width: 755px) {
+  .theImageinAbout {
+    background-image: url("/public/Images/kittypaper.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3000px;
+    /* padding:70px; */
+    background-position-x: -1400px;
+    padding-bottom: 2000px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .theImageinAbout {
+    background-image: url("/public/Images/kittypaper.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2500px;
+    background-position-x: -1200px;
+    padding-bottom: 1800px;
+    background-position-y: -300px;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .theImageinAbout {
+    background-image: url("/public/Images/kittypaper.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px;
+    background-position-x: -1000px;
+    background-position-y: -300px;
+    padding-bottom: 1300px;
+  }
 }

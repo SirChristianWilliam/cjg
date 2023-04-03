@@ -71,7 +71,7 @@ Confer with the client:
         on the bottom border of the Header 
     6. ✅ Edina Realty logo needs to have color changed, and double check the left padding/margin 
         to make sure the space is even on all surrounding sides
-    7. Client gave me 3 articles for sellers, add those in. 
+    7. ✅ Client gave me 3 articles for sellers, add those in. 
     8. Double check her phone # is correct
     9. Social media icons/links in top right and possibly bottom left of page. Related, 
         make sure footer is always on the bottom (it's floating middle on pages with content)
