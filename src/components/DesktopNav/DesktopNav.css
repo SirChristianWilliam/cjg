@@ -71,7 +71,10 @@
   color: var(--primary-color) !important;
   white-space: normal;
   word-break: keep-all;
-  padding: 10 5px;
+  padding: 5px 10px;
+}
+.dropdown-menu:not(.navbar-nav ul) {
+  transform: translate(-80px) ;
 }
 .dropdown-item:hover {
   color: rgb(27, 182, 163);
