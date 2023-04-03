@@ -75,12 +75,15 @@ Confer with the client:
     8. Double check her phone # is correct before hosting
     9. ✅ Social media icons/links in top right and possibly bottom left of page. Related, 
         make sure footer is always on the bottom (it's floating middle on pages with content)
-    10. Right now, hamburger is used in a small desktop viewport, which is fine, but 
+    10. ✅ Right now, hamburger is used in a small desktop viewport, which is fine, but 
         I need to decide whether the hover effects and such that aren't correct for 
         mobile viewport work for whichever is shown. Mobile drawer in general needs 
         to have appropriate color scheme and mobile specific needs no hover effects.
+        
+        UPDATE: It's good as it is, definitely room to style it up more but we'll see what client wants
+
     11. ✅ Both Mobile nav & Desktop Nav need prevention for article overflow. Either 
         use ellipsis method with overflow hidden, or overflow scroll. Ellipsis probably 
         would be best.
-    12. Back to articles button needs to be on all expanded articles, and they need 
+    12. ✅ Back to articles button needs to be on all expanded articles, and they need 
         to actually work lol.
