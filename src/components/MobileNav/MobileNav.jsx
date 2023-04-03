@@ -218,7 +218,7 @@ function MobileNav() {
                 </li>
                 <li data-bs-dismiss="offcanvas">
                   <Link to="/sellers/sellersexample" className="dropdown-item">
-                  What time is the right time to sell?
+                  Why it's so important to choose a local agent when selling your property
                   </Link>
                   <Link to="/sellers/sellersexample2" className="dropdown-item">
                   What is my property worth?
