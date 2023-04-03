@@ -64,7 +64,7 @@ Confer with the client:
     1. Finish deciding which colors will go where. 
     2. I added variable for the main color scheme- replace regular colors throughout
         CSS files with the variables (--primary-color, --action-color, etc)
-    3. About page needs styling badly 
+    3. ✅ About page needs styling badly 
     4. Home page needs a bit more styling than the one sentence there now, 
         look here: ( https://www.pinterest.com/tm_landing_page/portfolio-landing-page/ )
     5. ✅ Buyers & Sellers components need padding or margin space so they don't sit 
@@ -72,8 +72,8 @@ Confer with the client:
     6. ✅ Edina Realty logo needs to have color changed, and double check the left padding/margin 
         to make sure the space is even on all surrounding sides
     7. ✅ Client gave me 3 articles for sellers, add those in. 
-    8. Double check her phone # is correct
-    9. Social media icons/links in top right and possibly bottom left of page. Related, 
+    8. Double check her phone # is correct before hosting
+    9. ✅ Social media icons/links in top right and possibly bottom left of page. Related, 
         make sure footer is always on the bottom (it's floating middle on pages with content)
     10. Right now, hamburger is used in a small desktop viewport, which is fine, but 
         I need to decide whether the hover effects and such that aren't correct for 

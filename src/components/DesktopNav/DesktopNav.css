@@ -14,20 +14,19 @@
   outline: 2px solid var(--secondary-color);
   outline-offset: 4px;
   background-color: var(--action-color);
-  box-shadow:30px -30px 30px inset var(--action-color);
+  box-shadow: 30px -30px 30px inset var(--action-color);
   /* hm */
 }
 .btn.show {
   /* background-color: var(--action-color); */
-  box-shadow:30px 0px 30px inset var(--action-color);
-
+  box-shadow: 30px 0px 30px inset var(--action-color);
 }
 .dropdown a {
   background-color: transparent;
 }
 .navbar a:focus {
   transition: 0.5s;
- }
+}
 
 .navbar .container-fluid {
   --bs-gutter-x: 2.5rem;
@@ -38,8 +37,7 @@
   text-decoration: none;
   outline: none;
   background: none;
-  margin-right: 25px;
-
+  /* margin-right: 25px; */
 }
 /* .desktopOnOrOff .dropdown-menu a:not(:first-of-type a) {
   padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
@@ -52,16 +50,28 @@
   margin-top: 0;
   --bs-dropdown-link-active-bg: "";
   padding-top: 0;
+  --bs-dropdown-min-width: 17rem;
+  min-width: 260px;
+
   --bs-dropdown-divider-bg: "";
+  /* max-width: 250px; */
+  word-break: break-all;
 }
 .desktopListings {
   color: black !important;
 }
+.show a:first-child {
+  min-width: 280px !important;
+}
+
 .dropdown .btn {
   border-radius: none !important;
 }
 .dropdown-item {
   color: var(--primary-color) !important;
+  white-space: normal;
+  word-break: keep-all;
+  padding: 10 5px;
 }
 .dropdown-item:hover {
   color: rgb(27, 182, 163);
@@ -99,7 +109,6 @@
     padding: 12px 20px;
   }
 }
-
 
 @media only screen and (max-width: 1000px) {
   .desktopOnOrOff a {
@@ -164,8 +173,6 @@
   .mobileOnOrOff {
     display: "";
   }
- 
-  
 }
 
 @media only screen and (max-width: 630px) {
@@ -197,22 +204,21 @@
     width: auto;
   }
   .edinaLogo {
-    min-width: 119.2px; 
+    min-width: 119.2px;
     min-height: 32.81px;
   }
   .emailAndPhoneSizing {
     padding-bottom: 10px;
-    vertical-align:top;
+    vertical-align: top;
   }
   .proPicQualities {
-        margin-right: 0;
+    margin-right: 0;
   }
   .material-symbols-outlined {
     vertical-align: 2px;
-
   }
   .container-fluid {
-    --bs-gutter-x: 1.0rem;
+    --bs-gutter-x: 1rem;
   }
   .phoneLineHeight {
     font-size: smaller;
