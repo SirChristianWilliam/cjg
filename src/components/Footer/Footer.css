@@ -8,4 +8,5 @@ footer {
   text-align: center;
   color: rgba(245, 245, 245, 0.584);
   font-style: italic;
+  pointer-events: none;
 }

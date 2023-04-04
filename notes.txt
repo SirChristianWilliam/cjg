@@ -87,3 +87,14 @@ Confer with the client:
         would be best.
     12. ✅ Back to articles button needs to be on all expanded articles, and they need 
         to actually work lol.
+
+
+Monday April 3rd:
+- What's left is mostly color/styling preferences. I also need to be absolutely
+    sure that it's as accessible as possible, and optimized for the search engine. 
+    I might ask someone in my slack community to look it over just to be safe. 
+
+- The next big step while I wait for the client to confirm the color scheme is to 
+    replace any loose colors with variables and to tidy up the CSS as much as possible. 
+    Refactor code to make it as minimal as possible, especially regarding navigation. 
+     

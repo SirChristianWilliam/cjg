@@ -216,6 +216,15 @@
     margin-left: 50px;
   }
 }
+@media only screen and (max-width: 500px) {
+  /* 100% width on articles for mobile size */
+  .card {
+    max-width: 100% !important;
+  }
+  .buyerssellersarticletextcontainer {
+    padding:10px;
+  }
+}
 
 @media only screen and (max-width: 480px) {
   .navbar {
@@ -267,6 +276,21 @@
 @media only screen and (max-width: 400px) {
   .material-symbols-outlined {
     font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+ 
+  .dropdown {
+    min-width: 100px !important;
+
+  }
+  .dropdown-menu {
+    min-width: 100px !important;
+    overflow: scroll !important;
+  }
+  .show a:first-child {
+    min-width: 100px !important;
   }
 }
 
