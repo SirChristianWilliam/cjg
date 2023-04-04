@@ -33,7 +33,7 @@ function DesktopNav() {
           <ul className="dropdown-menu" title="Opens in a new tab">
             <li>
               <a
-                className="dropdown-item"
+                className="dropdown-item city"
                 href="https://www.cbresults.com/homes-for-sale-in-pine-city-mn"
                 target="_blank"
               >
@@ -45,7 +45,7 @@ function DesktopNav() {
             </li>
             <li>
               <a
-                className="dropdown-item"
+                className="dropdown-item city"
                 href="https://www.cbresults.com/homes-for-sale-in-mora-mn"
                 target="_blank"
               >
@@ -57,7 +57,7 @@ function DesktopNav() {
             </li>
             <li>
               <a
-                className="dropdown-item"
+                className="dropdown-item city"
                 href="https://www.cbresults.com/homes-for-sale-in-rush-city-mn"
                 target="_blank"
               >
@@ -69,7 +69,7 @@ function DesktopNav() {
             </li>
             <li>
               <a
-                className="dropdown-item"
+                className="dropdown-item city"
                 href="https://www.cbresults.com/homes-for-sale-in-grasston-mn"
                 target="_blank"
               >
@@ -81,7 +81,7 @@ function DesktopNav() {
             </li>
             <li>
               <a
-                className="dropdown-item"
+                className="dropdown-item city"
                 href="https://www.cbresults.com/homes-for-sale-in-braham-mn"
                 target="_blank"
               >
@@ -93,7 +93,7 @@ function DesktopNav() {
             </li>
             <li>
               <a
-                className="dropdown-item"
+                className="dropdown-item city"
                 href="https://www.cbresults.com/homes-for-sale-in-brook-park-mn"
                 target="_blank"
               >
@@ -105,7 +105,7 @@ function DesktopNav() {
             </li>
             <li>
               <a
-                className="dropdown-item"
+                className="dropdown-item city"
                 href="https://www.cbresults.com/homes-for-sale-in-rock-creek-mn"
                 target="_blank"
               >
@@ -117,7 +117,7 @@ function DesktopNav() {
             </li>
             <li>
               <a
-                className="dropdown-item"
+                className="dropdown-item city"
                 href="https://www.cbresults.com/homes-for-sale-in-hinckley-mn"
                 target="_blank"
               >

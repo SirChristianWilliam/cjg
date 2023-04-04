@@ -316,3 +316,7 @@
     display: none;
   }
 }
+
+.city {
+  padding-left: 10px !important;
+}

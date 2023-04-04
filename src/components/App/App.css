@@ -87,10 +87,14 @@ body {
 .articlesH1 {
   color: var(--secondary-color);
   text-align: center;
-  
+  width:100%;
+  background-image:linear-gradient( rgb(127, 144, 171),rgb(112 139 182) ) !important;  padding-top:15px;
+  padding-bottom:15px;
 }
 
 .backToArticles {
   position:sticky;
   bottom:0;
+  z-index: 1;
+
 }
