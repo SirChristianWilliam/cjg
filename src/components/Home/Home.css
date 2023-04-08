@@ -9,3 +9,10 @@
   text-shadow: 0px 0px 9px white, 0px 0px 9px white, 0px 0px 9px white,
     0px 0px 9px white, 0px 0px 9px white;
 }
+
+.italicStyle {
+  font-style: italic;
+  position: fixed;
+  bottom: 55px;
+  left: 25px;
+}

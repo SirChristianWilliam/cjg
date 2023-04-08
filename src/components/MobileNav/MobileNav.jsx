@@ -84,56 +84,56 @@ function MobileNav() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://www.cbresults.com/homes-for-sale-in-pine-city-mn"
+                    href="https://www.edinarealty.com/listing/listingsearch/properties?minPrice=0&maxPrice=0&nBed=0&nBath=0&pt_val=ForSale&age=age_any&sts_sale=1&sts_con=1&sts_soon=1&addl_stat=addl_stat_any&ext_gar=0&sugg_txt=Pine%20City,%20MN%20(City)&city_city=Pine%20City&add_state=MN&geoId=PL2751064&pgeSize=200&pgeNum=1&hght=11.806398841144805&wdth=14.501953125&srtBy=DateListed&nearby=0"
                     target="_blank"
                   >
                     Pine City, MN
                   </a>
                   <a
                     className="dropdown-item"
-                    href="https://www.cbresults.com/homes-for-sale-in-mora-mn"
+                    href="https://www.edinarealty.com/listing/listingsearch/properties?minPrice=0&maxPrice=0&nBed=0&nBath=0&pt_val=ForSale&age=age_any&sts_sale=1&sts_con=1&sts_soon=1&addl_stat=addl_stat_any&ext_gar=0&sugg_txt=Mora,%20MN%20(City)&city_city=Mora&add_state=MN&geoId=PL2744044&pgeSize=200&pgeNum=1&lat=45.87017397049115&long=-93.27469225000002&hght=0.30933083234759096&wdth=0.479278564453125&zm=11&srtBy=DateListed&nearby=0"
                     target="_blank"
                   >
                     Mora, MN
                   </a>
                   <a
                     className="dropdown-item"
-                    href="https://www.cbresults.com/homes-for-sale-in-rush-city-mn"
+                    href="https://www.edinarealty.com/listing/listingsearch/properties?minPrice=0&maxPrice=0&nBed=0&nBath=0&pt_val=ForSale&age=age_any&sts_sale=1&sts_con=1&sts_soon=1&addl_stat=addl_stat_any&ext_gar=0&sugg_txt=Rush%20City,%20MN%20(City)&city_city=Rush%20City&add_state=MN&geoId=PL2756266&pgeSize=200&pgeNum=1&lat=45.68717539787725&long=-93.001928885&hght=0.1551742960555771&wdth=0.2396392822265625&zm=12&srtBy=DateListed&nearby=0"
                     target="_blank"
                   >
                     Rush City, MN
                   </a>
                   <a
                     className="dropdown-item"
-                    href="https://www.cbresults.com/homes-for-sale-in-grasston-mn"
+                    href="https://www.edinarealty.com/listing/listingsearch/properties?minPrice=0&maxPrice=0&nBed=0&nBath=0&pt_val=ForSale&age=age_any&sts_sale=1&sts_con=1&sts_soon=1&addl_stat=addl_stat_any&ext_gar=0&sugg_txt=Grasston,%20MN%20(City)&city_city=Grasston&add_state=MN&geoId=PL2725424&pgeSize=200&pgeNum=1&lat=45.810193865665354&long=-93.10995299&hght=0.07741639408924073&wdth=0.11981964111328125&zm=13&srtBy=DateListed&nearby=0"
                     target="_blank"
                   >
                     Grasston, MN
                   </a>
                   <a
                     className="dropdown-item"
-                    href="https://www.cbresults.com/homes-for-sale-in-braham-mn"
+                    href="https://www.edinarealty.com/listing/listingsearch/properties?minPrice=0&maxPrice=0&nBed=0&nBath=0&pt_val=ForSale&age=age_any&sts_sale=1&sts_con=1&sts_soon=1&addl_stat=addl_stat_any&ext_gar=0&sugg_txt=Braham,%20MN%20(City)&city_city=Braham&add_state=MN&geoId=PL2707282&pgeSize=200&pgeNum=1&lat=45.7341696723895&long=-93.199772895&hght=0.07752199455838849&wdth=0.11981964111328125&zm=13&srtBy=DateListed&nearby=0"
                     target="_blank"
                   >
                     Braham, MN
                   </a>
                   <a
                     className="dropdown-item"
-                    href="https://www.cbresults.com/homes-for-sale-in-brook-park-mn"
+                    href="https://www.edinarealty.com/listing/listingsearch/properties?minPrice=0&maxPrice=0&nBed=0&nBath=0&pt_val=ForSale&age=age_any&sts_sale=1&sts_con=1&sts_soon=1&addl_stat=addl_stat_any&ext_gar=0&sugg_txt=Brook%20Park,%20MN%20(City)&city_city=Brook%20Park&add_state=MN&geoId=PL2707984&pgeSize=200&pgeNum=1&lat=45.96940044303718&long=-93.145232&hght=0.15438950758047554&wdth=0.2396392822265625&zm=12&srtBy=DateListed&nearby=0"
                     target="_blank"
                   >
                     Brook Park, MN
                   </a>
                   <a
                     className="dropdown-item"
-                    href="https://www.cbresults.com/homes-for-sale-in-rock-creek-mn"
+                    href="https://www.edinarealty.com/listing/listingsearch/properties?minPrice=0&maxPrice=0&nBed=0&nBath=0&pt_val=ForSale&age=age_any&sts_sale=1&sts_con=1&sts_soon=1&addl_stat=addl_stat_any&ext_gar=0&sugg_txt=Rock%20Creek,%20MN%20(City)&city_city=Rock%20Creek&add_state=MN&geoId=PL2754934&pgeSize=200&pgeNum=1&lat=45.7589869993854&long=-92.8994735&hght=0.30994904789909583&wdth=0.479278564453125&zm=11&srtBy=DateListed&nearby=0"
                     target="_blank"
                   >
                     Rock Creek, MN
                   </a>
                   <a
                     className="dropdown-item"
-                    href="https://www.cbresults.com/homes-for-sale-in-hinckley-mn"
+                    href="https://www.edinarealty.com/listing/listingsearch/properties?minPrice=0&maxPrice=0&nBed=0&nBath=0&pt_val=ForSale&age=age_any&sts_sale=1&sts_con=1&sts_soon=1&addl_stat=addl_stat_any&ext_gar=0&sugg_txt=Hinckley,%20MN%20(City)&city_city=Hinckley&add_state=MN&geoId=PL2729294&pgeSize=200&pgeNum=1&lat=46.00993951461716&long=-92.84228978000002&hght=0.30855206361933796&wdth=0.479278564453125&zm=11&srtBy=DateListed&nearby=0"
                     target="_blank"
                   >
                     Hinckley, MN

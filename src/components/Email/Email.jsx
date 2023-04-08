@@ -20,7 +20,7 @@ function Email() {
       <nav className="navbar bg-body-tertiary emailAndPhoneSizing">
         <div className="container">
           <a
-            href="mailto:cat@cbresults.com"
+            href="mailto:catjackson@edinarealty.com"
             onClick={handleClick}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}

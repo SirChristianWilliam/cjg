@@ -12,11 +12,11 @@ function SellersExample() {
 
         <div className="card-body w-100 buyerssellersarticletextcontainer">
           <h5 className="card-title">
-            WHY IT’S SO IMPORTANT TO CHOOSE A LOCAL AGENT WHEN SELLING YOUR
-            PROPERTY
+            Why it's so important to choose a local agent when selling your property
           </h5>
           <div className="card-text">
             <p className="card-text">
+              <br></br>
               &nbsp; One of the best decisions you can make when listing your
               home is to choose an agent local to your area. Here’s why:{" "}
               <br></br>

@@ -98,3 +98,22 @@ Monday April 3rd:
     replace any loose colors with variables and to tidy up the CSS as much as possible. 
     Refactor code to make it as minimal as possible, especially regarding navigation. 
      
+
+
+
+
+
+
+
+
+
+
+
+After meeting: 
+
+1. Contrast hover colors in nav bar.
+2. Add in facebook link
+3. Remove Listings & articles (wait for confirmation)
+4. About page will use for sale sign as picture with text inside the sign
+5. Still need all images and articles
+6. Change to correct phone #

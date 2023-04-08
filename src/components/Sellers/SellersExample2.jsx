@@ -49,7 +49,7 @@ function SellersExample2() {
               home so that you know where you can expect to come out.<br></br><br></br> My goal is
               to give you the best possible information so that together we can
               come to a price point that makes sense to you and gets you what
-              you want.<br></br><br></br><a href="mailto:cat@cbresults.com">Contact</a> me to get started on your free market analysis.
+              you want.<br></br><br></br><a href="mailto:catjackson@edinarealty.com">Contact</a> me to get started on your free market analysis.
             </p>
           </div>
           <p className="card-text">

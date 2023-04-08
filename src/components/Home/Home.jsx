@@ -12,7 +12,8 @@ function Home() {
   return (
     <>
       <div className="homePageTextContainer">
-        <h1>Helping you find your way home.</h1>
+        <h1 className="italicStyle">With you every step of the journey.</h1>
+
       </div>
     </>
   );

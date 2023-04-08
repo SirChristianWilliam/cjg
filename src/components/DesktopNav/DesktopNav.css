@@ -13,7 +13,7 @@
   border: 1px solid var(--primary-color);
   outline: 2px solid var(--secondary-color);
   outline-offset: 4px;
-  background-color: var(--action-color);
+  background-color: #2d0f00b5;
   box-shadow: 30px -30px 30px inset var(--action-color);
   /* hm */
 }
@@ -85,7 +85,7 @@
   color: var(--primary-color);
 }
 .nav {
-  --bs-nav-link-hover-color: #ccd062;
+  --bs-nav-link-hover-color: var(--secondary-color);
   display: flex;
   flex-wrap: nowrap;
 }
@@ -284,6 +284,10 @@
   .dropdown {
     min-width: 100px !important;
 
+  }
+  .italicStyle {
+    margin-right: 20px;
+    transform: translateY(55px);
   }
   .dropdown-menu {
     min-width: 100px !important;
